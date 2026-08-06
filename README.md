@@ -3,17 +3,15 @@
 </div>
 
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Null-Err0r&theme=gruvbox" />
+  <img src="https://raw.githubusercontent.com/Null-Err0r/Null-Err0r/main/profile-summary-card-output/gruvbox/0-profile-details.svg" />
 </p>
-
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Null-Err0r&theme=gruvbox" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Null-Err0r&theme=gruvbox" />
+  <img src="https://raw.githubusercontent.com/Null-Err0r/Null-Err0r/main/profile-summary-card-output/gruvbox/1-repos-per-language.svg" />
+  <img src="https://raw.githubusercontent.com/Null-Err0r/Null-Err0r/main/profile-summary-card-output/gruvbox/2-most-commit-language.svg" />
 </p>
-
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Null-Err0r&theme=gruvbox" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Null-Err0r&theme=gruvbox&utcOffset=8" />
+  <img src="https://raw.githubusercontent.com/Null-Err0r/Null-Err0r/main/profile-summary-card-output/gruvbox/3-stats.svg" />
+  <img src="https://raw.githubusercontent.com/Null-Err0r/Null-Err0r/main/profile-summary-card-output/gruvbox/4-productive-time.svg" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=null-err0r&theme=gruvbox" alt="GitHub Streak" />
