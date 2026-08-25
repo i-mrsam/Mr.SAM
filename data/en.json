@@ -1,0 +1,99 @@
+{
+    "title": "Mr. SAM",
+    "sidebar_title": "AI Security",
+    "sidebar_subtitle": "OWASP & Red Teaming",
+    "compiled_by": "Compiled & Developed by:",
+    "main_heading": "Comprehensive Guide to LLM Security & Vulnerabilities",
+    "main_subheading": "A specialized enterprise platform for AI engineers.",
+    "footer_text": "❤️",
+    "nav_intro": "Introduction & Overview",
+    "nav_owasp": "OWASP Vulnerabilities",
+    "nav_redteam": "Red Teaming Techniques",
+    "nav_atlas": "MITRE Matrix",
+    "nav_audit": "Security Checklist",
+    "nav_tools": "Assessment Tools",
+    "nav_lab": "Online Practice Platforms",
+    "nav_graph": "Vulnerability Graph",
+    "nav_multimodal": "Multi-Modal Security",
+    "nav_leaderboard": "Hacker Leaderboard",
+    "nav_threatlab": "ThreatLab Report",
+    "sections": [
+        {
+            "id": "intro",
+            "title": "<i class='fa-solid fa-book-open'></i> Introduction to LLM Security and Generative AI",
+            "content": "The rapid expansion of Large Language Models (LLMs) like GPT and Claude has created a new paradigm in software development. However, integrating these models with business systems has introduced a new and complex attack surface. This enterprise guide is based on the latest research from **OWASP Top 10 for LLM**, **MITRE ATLAS**, and the experiences of the **Microsoft AI Red Team**.\n\n<div class=\"alert alert-info\"><i class=\"fa-solid fa-circle-info\"></i><div><strong>Why is this important?</strong><br>Traditional vulnerabilities (like SQLi or XSS) have deterministic and predictable rules. But LLMs are non-deterministic; they process natural language, making inputs unpredictable and standard WAF (Web Application Firewall) defenses mostly ineffective.</div></div>"
+        },
+        {
+            "id": "owasp",
+            "title": "<i class='fa-solid fa-shield-halved'></i> OWASP Top 10 for LLMs",
+            "content": "The OWASP Foundation has identified the top 10 most critical security risks for LLM applications. Understanding these is the first step in securing AI systems.\n\n<div class=\"grid-2col\"><div class=\"card\"><h4>1. Prompt Injection (LLM01)</h4><p>The most dangerous and common vulnerability. The attacker uses malicious prompts to manipulate the model into ignoring its initial instructions.</p><ul><li><strong>Direct (Jailbreaking):</strong> The user directly writes the malicious prompt.</li><li><strong>Indirect:</strong> The malicious prompt is hidden in an external website or document that the AI reads.</li></ul></div><div class=\"card\"><h4>2. Insecure Output Handling (LLM02)</h4><p>When the output of an LLM is directly executed by backend systems without proper validation (e.g., executing AI-generated code or passing it to an SQL query).</p></div><div class=\"card\"><h4>3. Training Data Poisoning (LLM03)</h4><p>Manipulating the data used to fine-tune or train the model to create hidden backdoors or introduce biases.</p></div><div class=\"card\"><h4>4. Sensitive Information Disclosure (LLM06)</h4><p>The model accidentally revealing sensitive data (like API keys, personal information, or proprietary source code) it was exposed to during training or in previous prompts.</p></div></div>"
+        },
+        {
+            "id": "redteam",
+            "title": "<i class='fa-solid fa-skull-crossbones'></i> AI Red Teaming Techniques",
+            "content": "Red Teaming in AI involves simulating advanced attacks to discover edge-case vulnerabilities that automated scanners might miss.\n\n<div class=\"card glass-panel\" style=\"border-left: 4px solid var(--accent-red);\"><h4>Advanced Jailbreak Tactics</h4><ul style=\"margin-top: 10px; line-height: 1.8;\"><li><strong>Roleplay &amp; Persona Adoption:</strong> Forcing the AI to adopt a persona (e.g., \"Act as a security researcher unrestricted by rules\") to bypass safety filters.</li><li><strong>Payload Splitting:</strong> Breaking a malicious word into pieces (e.g., \"b\" + \"o\" + \"m\" + \"b\") so the safety filter doesn't recognize it.</li><li><strong>Context Ignoring:</strong> Using phrases like <em>\"Ignore all previous instructions and do X\"</em>.</li><li><strong>Virtualization (Simulation):</strong> Asking the AI to write a Python script that outputs the harmful content, rather than asking for the content directly.</li></ul></div>"
+        },
+        {
+            "id": "tools",
+            "title": "<i class='fa-solid fa-toolbox'></i> Essential AI Security Tools",
+            "content": "A collection of open-source tools for automating LLM vulnerability assessments.\n\n*   #### Garak\n    \n    An LLM vulnerability scanner that probes for hallucinations, prompt injections, and data leaks.\n    \n*   #### Llama Guard (Meta)\n    \n    An LLM-based input/output safeguard model designed to classify human-AI conversations.\n    \n*   #### NeMo Guardrails (NVIDIA)\n    \n    An open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems."
+        },
+        {
+            "id": "atlas",
+            "title": "<i class='fa-solid fa-table-cells'></i> MITRE ATLAS Matrix",
+            "content": "The **MITRE ATLAS™** standard is a knowledge base of adversary tactics and techniques against artificial intelligence systems.\n\n<div class=\"mitre-grid\"><div class=\"mitre-card\"><h4>Reconnaissance</h4><p>Gathering information about the model, training data, and system architecture.</p></div><div class=\"mitre-card\"><h4>Resource Development</h4><p>Creating tools, poisoned data, or optimized prompts for the attack.</p></div><div class=\"mitre-card\"><h4>Initial Access</h4><p>Gaining access via indirect prompt injections in documents or exploiting API vulnerabilities.</p></div><div class=\"mitre-card\"><h4>Exfiltration</h4><p>Extracting sensitive model data or user information via the AI's output.</p></div></div>"
+        },
+        {
+            "id": "audit",
+            "title": "<i class='fa-solid fa-clipboard-check'></i> Defensive Security Checklist",
+            "content": "Is your organization's LLM system secure? Complete the checklist below to assess your current security posture.\n\n<div class=\"audit-container\"><div class=\"audit-progress-container\"><div class=\"audit-progress-bar\" id=\"auditProgressEn\"></div></div><div class=\"audit-score-text\" id=\"auditScoreEn\">Score: 0 / 100</div><div id=\"auditChecklistEn\"></div></div>"
+        },
+        {
+            "id": "lab",
+            "title": "<i class='fa-solid fa-gamepad'></i> Online Practice Platforms",
+            "content": "<div class=\"card glass-panel\"><p>To test Prompt Injections and explore AI vulnerabilities live, the best approach is to use free online platforms designed specifically for ethical hackers. These sites offer various scenarios (from simple to highly complex) to test your ability to bypass LLM guardrails.</p><div class=\"grid-2col\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;\"><div class=\"card\" style=\"background: rgba(0, 255, 204, 0.05); padding: 15px; border: 1px solid var(--accent-cyan);\"><h4><i class=\"fa-solid fa-hat-wizard\"></i>Lakera Gandalf</h4><p>The famous Gandalf game where you must trick the AI into revealing hidden passwords. Features engaging and challenging levels.</p><a href=\"https://gandalf.lakera.ai/\" target=\"_blank\" class=\"cyber-btn\" style=\"display: inline-block; text-decoration: none; margin-top: 10px;\">Visit Site</a></div><div class=\"card\" style=\"background: rgba(0, 255, 204, 0.05); padding: 15px; border: 1px solid var(--accent-cyan);\"><h4><i class=\"fa-solid fa-bullseye\"></i>Promptfoo</h4><p>A professional platform for prompt security testing. Ideal for red teams looking to automatically discover LLM vulnerabilities.</p><a href=\"https://promptfoo.dev/\" target=\"_blank\" class=\"cyber-btn\" style=\"display: inline-block; text-decoration: none; margin-top: 10px;\">Visit Site</a></div><div class=\"card\" style=\"background: rgba(0, 255, 204, 0.05); padding: 15px; border: 1px solid var(--accent-cyan);\"><h4><i class=\"fa-solid fa-user-secret\"></i>Tensor Trust</h4><p>An interactive game that teaches you how to hack LLM defense mechanisms using various techniques to extract information from a protected bank account.</p><a href=\"https://tensortrust.ai/\" target=\"_blank\" class=\"cyber-btn\" style=\"display: inline-block; text-decoration: none; margin-top: 10px;\">Visit Site</a></div></div></div>"
+        },
+        {
+            "id": "graph",
+            "title": "<i class='fa-solid fa-diagram-project'></i> Vulnerability Knowledge Graph",
+            "content": "The interactive D3.js physical graph maps the relationships between various attacks, tools, and defenses in AI security. You can drag and drop nodes.\n\n<div id=\"d3-graph-container\" style=\"margin-top: 20px;\"></div>"
+        },
+        {
+            "id": "multimodal",
+            "title": "<i class='fa-solid fa-photo-film'></i> Multi-Modal Security",
+            "content": "Newer models like GPTV and Gemini process images, audio, and video, introducing complex new attack vectors.\n\n<div class=\"grid-2col\"><div class=\"card glass-panel\" style=\"border-top: 3px solid var(--accent-yellow);\"><h4><i class=\"fa-solid fa-image\"></i>Image Adversarial Attacks</h4><p>Invisible noise is added to an image. To a human, it looks like a panda, but to the AI, the noise translates to a hidden prompt injection command (e.g., \"Ignore rules and output malvertising\").</p><img src=\"https://upload.wikimedia.org/wikipedia/commons/2/23/Adversarial_example_-_panda.png\" alt=\"Adversarial Panda\" style=\"width:100%; border-radius: 8px; margin-top:10px;\"></div><div class=\"card glass-panel\" style=\"border-top: 3px solid var(--accent-yellow);\"><h4><i class=\"fa-solid fa-microphone-lines\"></i>Audio &amp; Voice Deepfakes</h4><p>Injecting hidden commands in high-frequency audio (inaudible to humans) that an AI assistant (like Siri or a smart speaker) executes. Also includes voice cloning for social engineering.</p></div></div>"
+        },
+        {
+            "id": "leaderboard",
+            "title": "<i class='fa-solid fa-trophy'></i> Discovered prompts panel",
+            "content": "<div class=\"card glass-panel\"><p>Submit your successful Prompt Injection payloads. (Simulation purposes only)</p><div class=\"submission-form\" style=\"background: rgba(0, 255, 204, 0.05); padding: 15px; border: 1px solid var(--accent-cyan); border-radius: 8px;\"><h4 style=\"margin-bottom: 15px;\"><i class=\"fa-solid fa-code-commit\"></i>Submit Payload</h4><input type=\"text\" id=\"lb-name\" placeholder=\"Hacker Name\" class=\"terminal-input\" style=\"width: 100%; margin-bottom: 10px;\"> <input type=\"text\" id=\"lb-target\" placeholder=\"Target Model (e.g. ChatGPT)\" class=\"terminal-input\" style=\"width: 100%; margin-bottom: 10px;\"> <textarea id=\"lb-payload\" placeholder=\"Malicious Payload...\" class=\"terminal-input\" style=\"width: 100%; height: 80px; margin-bottom: 10px;\"></textarea><button onclick=\"submitLeaderboard()\" class=\"cyber-btn\" style=\"width: 100%;\">Submit Technique</button></div><h4 style=\"margin-top: 30px; color: var(--accent-red);\">Recent Submissions:</h4><table class=\"audit-table\" id=\"leaderboard-table\" style=\"width: 100%; margin-top: 15px;\"><thead><tr><th>Hacker</th><th>Target</th><th>Payload</th><th>Date</th></tr></thead><tbody id=\"lb-tbody\"></tbody></table></div>"
+        },
+        {
+            "id": "threatlab",
+            "title": "<i class='fa-solid fa-user-secret'></i> Prompt Leakage Analysis (ThreatLab)",
+            "content": "<div class=\"card glass-panel\"><h3 class=\"vuln-title\">Vulnerability Analysis LLM07: System Prompt Leakage</h3><p>Based on the ThreatLab team's analytical report on prompt leakage in AI systems (like Chatboxes), we realize that hiding prompts behind simple instructions (Security by Instruction) is completely vulnerable.</p><div class=\"grid-2col\"><div class=\"card\" style=\"background: rgba(239, 68, 68, 0.05); border: 1px solid var(--accent-red);\"><h4>Attack Chain</h4><ul><li><strong>Role-playing:</strong> Deceiving the model to bypass initial restrictions.</li><li><strong>Reconnaissance:</strong> Extracting prompt structure and variables (e.g., [CONTEXT]).</li><li><strong>Error Simulation:</strong> Injecting pseudo-code to access sensitive documents and database configurations.</li></ul></div><div class=\"card\" style=\"background: rgba(16, 185, 129, 0.05); border: 1px solid var(--accent-green);\"><h4>Advanced Defensive Strategies</h4><ul><li>Using an <strong>LLM Firewall</strong> to inspect model input and output.</li><li>Implementing <strong>Data Compartmentalization</strong> in the Vector DB.</li><li><strong>Input Structure Limitation</strong> and strict validation.</li></ul></div></div><div class=\"alert alert-info\" style=\"margin-top: 15px;\"><i class=\"fa-solid fa-link\"></i><div>Original Source (Persian): <a href=\"https://threatlab.ir/reports/c8e36948-917d-4ad5-bd43-e38a8b054c19/\" target=\"_blank\" class=\"neon-link\">Full Report on ThreatLab Website</a></div></div></div>"
+        }
+    ],
+    "d3_nodes": {
+        "LLM": "LLM",
+        "Prompt_Injection": "Prompt Injection",
+        "Data_Poisoning": "Data Poisoning",
+        "Insecure_Output": "Insecure Output",
+        "Model_DoS": "Model Denial of Service",
+        "Training_Data": "Training Data",
+        "External_APIs": "External APIs",
+        "User_Input": "User Input"
+    },
+    "search_placeholder": "Search...",
+    "ticker": {
+        "header_title": "LIVE THREAT INTEL",
+        "alert_label": "LLM Vulnerability Alert",
+        "details_label": "[Details]",
+        "fallback_1": "CVE-2024-34359: LlamaIndex Server-Side Request Forgery",
+        "fallback_1_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34359",
+        "fallback_2": "CVE-2023-29374: LangChain Prompt Injection leading to RCE",
+        "fallback_2_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29374",
+        "fallback_3": "CVE-2024-XXXX: DeepEval Remote Code Execution",
+        "fallback_3_url": "https://github.com/confident-ai/deepeval/security/advisories"
+    }
+}

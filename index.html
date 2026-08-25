@@ -966,7 +966,7 @@ button, [onclick] {
 
 </head>
 
-<body>
+<body><a href="https://mrsam.me/cdn-cgi/content?id=BVQu7tsQGMtB3r9ahFipzLGxYnEDIvSVlbYWGiEqZ3U-1787652589.097604-1.2.1.1-uuw9LIENcHyfqIrd8P5Sqt9.Z3BKZ9cDNvbxHkRXUrY.QNR9be_fmRKcVVrNS1k4" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
 
     <div id="tsparticles"></div>
     <div id="terminal" role="main" aria-label="Terminal Portfolio">
@@ -990,7 +990,7 @@ button, [onclick] {
     <button id="close-panel" aria-label="Close panel">X</button>
     <div id="panel-content"></div>
   </div>
-  <script>
+  <script >
     const decoyPartB64 = 'ZGVsYmFyODY3MQ==';
     const ENCRYPTED_AI_WORKER_URL = 'JQZaUCB7YlsDHgwdQxUEBQ8KAB5JUVgAWVxZQVZDKRBHTiAgIB1LBQIbBQQeA08KABpL';
     function generateKey() {
@@ -1083,7 +1083,7 @@ button, [onclick] {
         promptHelp: `Type 'help' for commands. Press 'Esc' to exit terminal.`,
         helpText: `Available commands:\n- about: Who am I\n- commands: Windows, Linux & RE commands\n- updates: The Newest in Security\n- ai: Open AI Assistant\n- chatbot: Open AI Assistant\n- clear: Clear the terminal\n- exit: Exit terminal mode`,
         projectsLoading: `... Updating ...`,
-        projectsError: `Error fetching. Visit: https://github.com/null-err0r`,
+        projectsError: `Error fetching. Visit: https://github.com/i-mrsam`,
         langSwitched: `Language switched to English.`,
         cmdNotFound: `Command not found. Type 'help'.`,
         torDetected: `[!] Tor network detected.`,
@@ -1105,7 +1105,7 @@ button, [onclick] {
         promptHelp: `برای شروع 'راهنما' را تایپ کنید. برای خروج از حالت ترمینال کلید 'Esc' را فشار دهید.`,
         helpText: `دستورات موجود:\n- درباره: درباره من\n- دستورات: دستورات ویندوز، لینوکس و مهندسی معکوس\n- تازه ها: جدیدترین ها از دنیای امنیت\n- هوش مصنوعی: گفتگوی متنی با هوش مصنوعی\n- چت بات: گفتگوی متنی با هوش مصنوعی\n- پاک کن: پاک کردن ترمینال\n- خروج: خروج از حالت ترمینال`,
         projectsLoading: `در حال بروز رسانی ...`,
-        projectsError: `خطا در دریافت. به این آدرس مراجعه کنید: https://github.com/null-err0r`,
+        projectsError: `خطا در دریافت. به این آدرس مراجعه کنید: https://github.com/i-mrsam`,
         langSwitched: `زبان به فارسی تغییر یافت.`,
         cmdNotFound: `دستور یافت نشد. برای مشاهده دستورات 'راهنما' را تایپ کنید.`,
         torDetected: `[!] شبکه Tor شناسایی شد.`,
@@ -1384,7 +1384,7 @@ button, [onclick] {
 
     async function fetchProjects() {
       try {
-        const response = await fetch('https://api.github.com/users/null-err0r/repos');
+        const response = await fetch('https://api.github.com/users/i-mrsam/repos');
         const data = await response.json();
         let otherRepoListHtml = '<div class="other-projects"><h2 class="center"></h2><ul class="project-list">';
         const filteredRepos = data.filter(repo => !repo.fork);
@@ -1392,19 +1392,19 @@ button, [onclick] {
         filteredRepos.forEach(repo => { otherRepoListHtml += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`; });
         otherRepoListHtml += '</ul></div>';
         return `<div class="container" style="display: flex; flex-direction: column; align-items: center; gap: 30px; max-width: 100%; margin: auto;">
-          <div class="row" style="display: flex; justify-content: center; flex-wrap: wrap; width: 100%;"><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=null-err0r&theme=gruvbox" alt="Profile Details" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
-          <div class="row" style="display: flex; justify-content: center; flex-wrap: wrap; width: 100%;"><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=null-err0r&theme=gruvbox" alt="Repos per Language" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=null-err0r&theme=gruvbox" alt="Most Commit Language" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
-          <div class="row" style="display: flex; justify-content: center; flex-wrap: wrap; width: 100%;"><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=null-err0r&theme=gruvbox" alt="Stats" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=null-err0r&theme=gruvbox&utcOffset=8" alt="Productive Time" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
-          <div class="row" style="display: flex; justify-content: center; width: 100%;"><img loading="lazy" src="https://github-readme-streak-stats.herokuapp.com/?user=null-err0r&theme=gruvbox" alt="GitHub Streak" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
-          <div class="row" style="display: flex; justify-content: center; width: 100%;"><img loading="lazy" src="https://github-profile-trophy.vercel.app/?username=null-err0r&theme=gruvbox&no-frame=true&margin-w=15&margin-h=15&row=2&column=4" alt="Trophies" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
+          <div class="row" style="display: flex; justify-content: center; flex-wrap: wrap; width: 100%;"><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=i-mrsam&theme=gruvbox" alt="Profile Details" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
+          <div class="row" style="display: flex; justify-content: center; flex-wrap: wrap; width: 100%;"><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=i-mrsam&theme=gruvbox" alt="Repos per Language" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=i-mrsam&theme=gruvbox" alt="Most Commit Language" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
+          <div class="row" style="display: flex; justify-content: center; flex-wrap: wrap; width: 100%;"><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=i-mrsam&theme=gruvbox" alt="Stats" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /><img loading="lazy" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=i-mrsam&theme=gruvbox&utcOffset=8" alt="Productive Time" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
+          <div class="row" style="display: flex; justify-content: center; width: 100%;"><img loading="lazy" src="https://github-readme-streak-stats.herokuapp.com/?user=mrsam&theme=gruvbox" alt="GitHub Streak" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
+          <div class="row" style="display: flex; justify-content: center; width: 100%;"><img loading="lazy" src="https://github-profile-trophy.vercel.app/?username=i-mrsam&theme=gruvbox&no-frame=true&margin-w=15&margin-h=15&row=2&column=4" alt="Trophies" style="max-width: 100%; height: auto; pointer-events: none; user-select: none; display: block;" /></div>
           <div class="projects"><h2 class="center">📂</h2><div class="project-list-container">
-            <div><a href="https://github.com/null-err0r/Advanced-Mic-Camera-Monitor" target="_blank">Advanced Mic Camera Monitor</a><p>🛡️ مانیتورینگ میکروفن و دوربین برای شناسایی فعالیت‌های مشکوک و جاسوسی</p></div>
-            <div><a href="https://github.com/null-err0r/Hiden-Text-Detector" target="_blank">Hidden Text Detector</a><p>🧐 کشف متون پنهان در صفحات یا تصاویر با تکنیک‌های بینایی ماشین</p></div>
-            <div><a href="https://github.com/null-err0r/TimeZone" target="_blank">TimeZone</a><p>⏰🌍  تایم‌زون‌های سفارشی برای برنامه‌های جداگانه روی اندروید روت‌شده</p></div>
-            <div><a href="https://github.com/null-err0r/Filtering-Analysis-Tool" target="_blank">Filtering Analysis Tool</a><p>🧱 ابزار تحلیل شبکه برای شناسایی فیلترینگ</p></div>
-            <div><a href="https://github.com/null-err0r/DB-Search-GUI" target="_blank">DB Search GUI</a><p>🔎 جستجو در فایل‌های دیتابیس متنی با پشتیبانی از فارسی </p></div>
-            <div><a href="https://github.com/null-err0r/YouTube-Downloader" target="_blank">YouTube Downloader</a><p>▶️ دانلود ویدیو و صدا از یوتیوب با پشتیبانی از کیفیت‌های مختلف و رابط گرافیکی</p></div>
-          </div>${otherRepoListHtml}<div style="display: flex; justify-content: center; width: 100%;"><br></br><img loading="lazy" src="https://ghvc.kabelkultur.se/?username=null-err0r&abbreviated=true&color=ff5500&label=%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE%20%F0%9F%91%80%20%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AEVisitor%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE%20%F0%9F%91%80%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE⁮⁮" alt="Visitor Counter" /><br></br></div>`;
+            <div><a href="https://github.com/i-mrsam/Advanced-Mic-Camera-Monitor" target="_blank">Advanced Mic Camera Monitor</a><p>🛡️ مانیتورینگ میکروفن و دوربین برای شناسایی فعالیت‌های مشکوک و جاسوسی</p></div>
+            <div><a href="https://github.com/i-mrsam/Hiden-Text-Detector" target="_blank">Hidden Text Detector</a><p>🧐 کشف متون پنهان در صفحات یا تصاویر با تکنیک‌های بینایی ماشین</p></div>
+            <div><a href="https://github.com/i-mrsam/TimeZone" target="_blank">TimeZone</a><p>⏰🌍  تایم‌زون‌های سفارشی برای برنامه‌های جداگانه روی اندروید روت‌شده</p></div>
+            <div><a href="https://github.com/i-mrsam/Filtering-Analysis-Tool" target="_blank">Filtering Analysis Tool</a><p>🧱 ابزار تحلیل شبکه برای شناسایی فیلترینگ</p></div>
+            <div><a href="https://github.com/i-mrsam/DB-Search-GUI" target="_blank">DB Search GUI</a><p>🔎 جستجو در فایل‌های دیتابیس متنی با پشتیبانی از فارسی </p></div>
+            <div><a href="https://github.com/i-mrsam/YouTube-Downloader" target="_blank">YouTube Downloader</a><p>▶️ دانلود ویدیو و صدا از یوتیوب با پشتیبانی از کیفیت‌های مختلف و رابط گرافیکی</p></div>
+          </div>${otherRepoListHtml}<div style="display: flex; justify-content: center; width: 100%;"><br></br><img loading="lazy" src="https://ghvc.kabelkultur.se/?username=i-mrsam&abbreviated=true&color=ff5500&label=%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE%20%F0%9F%91%80%20%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AEVisitor%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE%20%F0%9F%91%80%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE%20%E2%81%AE%E2%81%AE⁮⁮" alt="Visitor Counter" /><br></br></div>`;
       } catch (error) {
         console.error('Error fetching repositories:', error);
         return makeLinksClickable(messages[lang].projectsError);
@@ -1414,10 +1414,10 @@ button, [onclick] {
     const getAboutContent = (currentLang) => {
         const commonHtmlStart = `<div class="bio-container"><div class="avatar-wrapper"><div class="glow-ring"></div><img src="https://avatars.githubusercontent.com/u/19436819?v=4" alt="Avatar" class="avatar"></div>`;
         const commonHtmlEnd = `
-            <a class="link-button" href="https://github.com/Null-Err0r" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" style="font-size:1.2em; vertical-align:middle;"></i>GitHub</a>
-            <a class="link-button" href="https://t.me/NullErr0r" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram" style="font-size:1.2em; vertical-align:middle;"></i>Telegram</a>
+            <a class="link-button" href="https://github.com/i-mrsam" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" style="font-size:1.2em; vertical-align:middle;"></i>GitHub</a>
+            <a class="link-button" href="https://t.me/i_mrsam" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram" style="font-size:1.2em; vertical-align:middle;"></i>Telegram</a>
             <a class="link-button" href="https://x.com/0x0Err0r" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter" style="font-size:1.2em; vertical-align:middle;"></i> X </a>
-            <a class="link-button" href="mailto:NullError@duck.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope" style="font-size:1.2em; vertical-align:middle;"></i>Email</a>
+            <a class="link-button" href="mailto:mrsam1@duck.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope" style="font-size:1.2em; vertical-align:middle;"></i>Email</a>
             <a class="link-button" href="#" onclick="openPanel('<iframe src=\\'content/donate.html\\'></iframe>', 'donate'); return false;"><i style="font-size:1.2em; vertical-align:middle; color: #ff5555;"></i>حمایت ❤️ Donate</a>
             <a class="link-button" href="#" onclick="openPanel('<iframe src=\\'content/privacy.html\\'></iframe>', 'privacy'); return false;"><i class="fa-solid fa-user-secret" style="font-size:1.2em; vertical-align:middle;"></i>سیاست حفظ حریم خصوصی ربات</a>
         </div>`;
@@ -1477,6 +1477,7 @@ button, [onclick] {
         'about': { fn: commandFunctions.aboutme, label: "About Me", icon: "fa-solid fa-id-card" },
         'tutorials': { fn: commandFunctions.openMainTutorials, label: "Tutorials", icon: "fa-solid fa-graduation-cap" },
         'updates': { fn: commandFunctions.news, label: "Security Updates", icon: "fa-solid fa-newspaper" },
+        'ai_link': { url: "ai.html", label: "Ai", icon: "fa-solid fa-robot" },
         'commands': { fn: commandFunctions.openTerminalCommands },
         'ai': { fn: openAiPanel },
         'help': { fn: () => messages.en.helpText },
@@ -1487,6 +1488,7 @@ button, [onclick] {
         'درباره': { fn: commandFunctions.aboutme, label: "درباره من", icon: "fa-solid fa-id-card" },
         'آموزش': { fn: commandFunctions.openMainTutorials, label: "آموزش", icon: "fa-solid fa-graduation-cap" },
         'تازه ها': { fn: commandFunctions.news, label: "تازه های امنیت", icon: "fa-solid fa-newspaper" },
+        'هوش_مصنوعی_لینک': { url: "ai.html", label: "هوش مصنوعی", icon: "fa-solid fa-robot" },
         'دستورات': { fn: commandFunctions.openTerminalCommands },
         'هوش مصنوعی': { fn: openAiPanel },
         'راهنما': { fn: () => messages.fa.helpText },
@@ -1500,7 +1502,17 @@ button, [onclick] {
         const commandSet = lang === 'fa' ? commandStructure.fa : commandStructure.en;
         for (const cmdKey in commandSet) {
             if (!commandSet[cmdKey].label) continue;
-            const button = document.createElement('button');
+            
+            let button;
+            if (commandSet[cmdKey].url) {
+                button = document.createElement('a');
+                button.href = commandSet[cmdKey].url;
+                button.target = '_blank';
+                button.style.textDecoration = 'none';
+            } else {
+                button = document.createElement('button');
+            }
+            
             button.className = 'glass-btn';
             button.dataset.command = cmdKey;
 
@@ -1592,6 +1604,7 @@ button, [onclick] {
 
     guiControls.addEventListener('click', async (e) => {
         const button = e.target.closest('.glass-btn'); if (!button) return;
+        if (button.tagName.toLowerCase() === 'a') return;
         const command = button.dataset.command;
         const commandSet = lang === 'fa' ? commandStructure.fa : commandStructure.en;
         if (command && commandSet[command]) {
@@ -1793,8 +1806,8 @@ button, [onclick] {
     });
     
   </script>
-   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-  <script>
+   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js" ></script>
+  <script >
         document.addEventListener('DOMContentLoaded', () => {
             let particlesInstance = null; 
             let mouseStopTimer;       
@@ -1863,7 +1876,7 @@ button, [onclick] {
         });
     </script>
   
-  <script>
+  <script >
   document.addEventListener('DOMContentLoaded', () => {
     const titleText = "Mr. SAM";
     const typingSpeed = 150;

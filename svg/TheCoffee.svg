@@ -1,0 +1,136 @@
+<svg width="28" height="28" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coffeeGrad" cx="45%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#ff854d"/>
+      <stop offset="70%" stop-color="#ff5500"/>
+      <stop offset="100%" stop-color="#d44700"/>
+    </radialGradient>
+    
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff854d"/>
+      <stop offset="25%" stop-color="#ff5500"/>
+      <stop offset="100%" stop-color="#d44700"/>
+    </linearGradient>
+    
+    <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff854d"/>
+      <stop offset="100%" stop-color="#d44700"/>
+    </linearGradient>
+    
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <ellipse cx="62" cy="96" rx="42" ry="12" fill="rgba(0,0,0,0.15)">
+    <animate attributeName="opacity" values="0.15;0.25;0.15" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <path d="M28 42 Q60 28 92 42 L92 78 Q60 98 28 78 Z" 
+        fill="url(#cupGrad)" 
+        stroke="#b33c00" 
+        stroke-width="1.5"
+        filter="url(#shadow)"/>
+  
+  <ellipse cx="60" cy="42" rx="32" ry="12" 
+           fill="url(#cupGrad)" 
+           stroke="#b33c00" 
+           stroke-width="1.5"/>
+  
+  <path d="M92 52 Q110 58 112 68 Q110 78 92 76" 
+        fill="none" 
+        stroke="url(#handleGrad)" 
+        stroke-width="6"
+        stroke-linecap="round"
+        filter="url(#shadow)">
+    <animate attributeName="stroke-width" values="6;6.5;6" dur="3s" repeatCount="indefinite"/>
+  </path>
+  
+  <ellipse cx="60" cy="42" rx="29" ry="9" fill="url(#coffeeGrad)">
+    <animate attributeName="rx" values="29;30;29" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="ry" values="9;10;9" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <ellipse cx="60" cy="42" rx="24" ry="6" fill="#8B4513" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.8;0.6" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <g filter="url(#glow)">
+    <path d="M48 32 C 43 22, 53 12, 48 2" 
+          stroke="#ff854d" 
+          stroke-width="2.5" 
+          stroke-linecap="round" 
+          fill="none" 
+          opacity="0.8">
+      <animateTransform attributeName="transform" 
+                        type="translate" 
+                        values="0 0; -1 -10; 1 -20; 0 -8; 0 0" 
+                        dur="3s" 
+                        repeatCount="indefinite" />
+      <animate attributeName="opacity" 
+               values="0;0.8;1;0.6;0" 
+               dur="3s" 
+               repeatCount="indefinite" />
+      <animate attributeName="stroke-width" 
+               values="2.5;3;2;1.5;2.5" 
+               dur="3s" 
+               repeatCount="indefinite" />
+    </path>
+    
+    <path d="M60 30 C 55 20, 65 10, 60 0" 
+          stroke="#ff5500" 
+          stroke-width="2.8" 
+          stroke-linecap="round" 
+          fill="none" 
+          opacity="0.9">
+      <animateTransform attributeName="transform" 
+                        type="translate" 
+                        values="0 0; 1 -12; -1 -24; 0 -10; 0 0" 
+                        dur="2.5s" 
+                        begin="0.3s"
+                        repeatCount="indefinite" />
+      <animate attributeName="opacity" 
+               values="0;0.9;1;0.7;0" 
+               dur="2.5s" 
+               begin="0.3s"
+               repeatCount="indefinite" />
+    </path>
+    
+    <path d="M72 34 C 67 24, 77 14, 72 4" 
+          stroke="#d44700" 
+          stroke-width="2.2" 
+          stroke-linecap="round" 
+          fill="none" 
+          opacity="0.7">
+      <animateTransform attributeName="transform" 
+                        type="translate" 
+                        values="0 0; -1 -8; 1 -16; 0 -6; 0 0" 
+                        dur="3.2s" 
+                        begin="0.8s"
+                        repeatCount="indefinite" />
+      <animate attributeName="opacity" 
+               values="0;0.7;0.9;0.5;0" 
+               dur="3.2s" 
+               begin="0.8s"
+               repeatCount="indefinite" />
+    </path>
+  </g>
+  
+  <ellipse cx="50" cy="52" rx="8" ry="15" 
+           fill="rgba(255,255,255,0.3)" 
+           transform="rotate(-15 50 52)">
+    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <circle cx="45" cy="48" r="2" fill="rgba(255,255,255,0.8)">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
