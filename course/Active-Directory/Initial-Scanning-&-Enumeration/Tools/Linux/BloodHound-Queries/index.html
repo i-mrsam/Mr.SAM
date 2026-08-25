@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://mrsam.me/">
+        <link rel="canonical" href="https://mrsam.me/Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Tools/Linux/BloodHound-Queries/">
       
       
+        <link rel="prev" href="../../../Credentialed-Enumeration/From-Windows/">
       
-        <link rel="next" href="Offensive-Security/Network/tools/nmap/">
+      
+        <link rel="next" href="../CrackMapExec/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>صفحه اصلی - Mr. SAM</title>
+        <title>کوئری‌های BloodHound - Mr. SAM</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../../../../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../../../../assets/stylesheets/palette.06af60db.min.css">
       
       
   
@@ -87,7 +89,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -127,7 +129,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="سرتیتر">
-    <a href="." title="Mr. SAM" class="md-header__button md-logo" aria-label="Mr. SAM" data-md-component="logo">
+    <a href="../../../../../.." title="Mr. SAM" class="md-header__button md-logo" aria-label="Mr. SAM" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -147,7 +149,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              صفحه اصلی
+              کوئری‌های BloodHound
             
           </span>
         </div>
@@ -251,11 +253,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../../../../.." class="md-tabs__link">
         
   
   
@@ -272,6 +272,8 @@
   
   
   
+    
+  
   
     
     
@@ -279,6 +281,8 @@
   
   
   
+    
+  
   
     
     
@@ -286,11 +290,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="Offensive-Security/Network/tools/nmap/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../../../Network/tools/nmap/" class="md-tabs__link">
           
   
   
@@ -332,7 +338,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="هدایت" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Mr. SAM" class="md-nav__button md-logo" aria-label="Mr. SAM" data-md-component="logo">
+    <a href="../../../../../.." title="Mr. SAM" class="md-nav__button md-logo" aria-label="Mr. SAM" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -347,19 +353,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../../../.." class="md-nav__link">
         
   
   
@@ -370,7 +367,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -379,8 +375,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -398,19 +396,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -423,7 +424,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             امنیت تهاجمی
@@ -449,17 +450,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
         
           
-          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
             
   
   
@@ -537,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/tools/nmap/" class="md-nav__link">
+      <a href="../../../../../Network/tools/nmap/" class="md-nav__link">
         
   
   
@@ -560,7 +564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/tools/masscan/" class="md-nav__link">
+      <a href="../../../../../Network/tools/masscan/" class="md-nav__link">
         
   
   
@@ -583,7 +587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/tools/rustscan/" class="md-nav__link">
+      <a href="../../../../../Network/tools/rustscan/" class="md-nav__link">
         
   
   
@@ -693,7 +697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/Readme/" class="md-nav__link">
+      <a href="../../../../../Network/ports/Readme/" class="md-nav__link">
         
   
   
@@ -716,7 +720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/21/" class="md-nav__link">
+      <a href="../../../../../Network/ports/21/" class="md-nav__link">
         
   
   
@@ -739,7 +743,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/22/" class="md-nav__link">
+      <a href="../../../../../Network/ports/22/" class="md-nav__link">
         
   
   
@@ -762,7 +766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/23/" class="md-nav__link">
+      <a href="../../../../../Network/ports/23/" class="md-nav__link">
         
   
   
@@ -785,7 +789,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/25/" class="md-nav__link">
+      <a href="../../../../../Network/ports/25/" class="md-nav__link">
         
   
   
@@ -808,7 +812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/53/" class="md-nav__link">
+      <a href="../../../../../Network/ports/53/" class="md-nav__link">
         
   
   
@@ -831,7 +835,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/110/" class="md-nav__link">
+      <a href="../../../../../Network/ports/110/" class="md-nav__link">
         
   
   
@@ -854,7 +858,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/135/" class="md-nav__link">
+      <a href="../../../../../Network/ports/135/" class="md-nav__link">
         
   
   
@@ -877,7 +881,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/161/" class="md-nav__link">
+      <a href="../../../../../Network/ports/161/" class="md-nav__link">
         
   
   
@@ -900,7 +904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/389/" class="md-nav__link">
+      <a href="../../../../../Network/ports/389/" class="md-nav__link">
         
   
   
@@ -923,7 +927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/445/" class="md-nav__link">
+      <a href="../../../../../Network/ports/445/" class="md-nav__link">
         
   
   
@@ -946,7 +950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/1433/" class="md-nav__link">
+      <a href="../../../../../Network/ports/1433/" class="md-nav__link">
         
   
   
@@ -969,7 +973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/2049/" class="md-nav__link">
+      <a href="../../../../../Network/ports/2049/" class="md-nav__link">
         
   
   
@@ -992,7 +996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/3306/" class="md-nav__link">
+      <a href="../../../../../Network/ports/3306/" class="md-nav__link">
         
   
   
@@ -1015,7 +1019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/3389/" class="md-nav__link">
+      <a href="../../../../../Network/ports/3389/" class="md-nav__link">
         
   
   
@@ -1038,7 +1042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/5900/" class="md-nav__link">
+      <a href="../../../../../Network/ports/5900/" class="md-nav__link">
         
   
   
@@ -1061,7 +1065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Network/ports/5985/" class="md-nav__link">
+      <a href="../../../../../Network/ports/5985/" class="md-nav__link">
         
   
   
@@ -1116,17 +1120,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
         
           
-          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
             
   
   
@@ -1208,7 +1215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Enumeration/Readme/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Enumeration/Readme/" class="md-nav__link">
         
   
   
@@ -1231,7 +1238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Enumeration/Directory-Brute-Forcing/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Enumeration/Directory-Brute-Forcing/" class="md-nav__link">
         
   
   
@@ -1254,7 +1261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Enumeration/Subdomain-Enumeration/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Enumeration/Subdomain-Enumeration/" class="md-nav__link">
         
   
   
@@ -1277,7 +1284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Enumeration/Detecting-WAF/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Enumeration/Detecting-WAF/" class="md-nav__link">
         
   
   
@@ -1300,7 +1307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Enumeration/Google-Dorks/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Enumeration/Google-Dorks/" class="md-nav__link">
         
   
   
@@ -1382,7 +1389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Readme/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Readme/" class="md-nav__link">
         
   
   
@@ -1513,7 +1520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/SQLi/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/SQLi/" class="md-nav__link">
         
   
   
@@ -1536,7 +1543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/Command-Injection/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/Command-Injection/" class="md-nav__link">
         
   
   
@@ -1559,7 +1566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/NoSQL/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/NoSQL/" class="md-nav__link">
         
   
   
@@ -1582,7 +1589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/LDAP/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/LDAP/" class="md-nav__link">
         
   
   
@@ -1605,7 +1612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/XPath/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/XPath/" class="md-nav__link">
         
   
   
@@ -1628,7 +1635,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/SSTI/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/SSTI/" class="md-nav__link">
         
   
   
@@ -1708,7 +1715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/SQLi/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/SQLi/" class="md-nav__link">
         
   
   
@@ -1731,7 +1738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/Command-Injection/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/Command-Injection/" class="md-nav__link">
         
   
   
@@ -1754,7 +1761,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/NoSQL/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/NoSQL/" class="md-nav__link">
         
   
   
@@ -1777,7 +1784,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/LDAP/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/LDAP/" class="md-nav__link">
         
   
   
@@ -1800,7 +1807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/XPath/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/XPath/" class="md-nav__link">
         
   
   
@@ -1823,7 +1830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/SSTI/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Server-Side-Injections/Checklist/SSTI/" class="md-nav__link">
         
   
   
@@ -1913,7 +1920,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Client-Side-Injections/XSS/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Client-Side-Injections/XSS/" class="md-nav__link">
         
   
   
@@ -1936,7 +1943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Client-Side-Injections/CSRF/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Client-Side-Injections/CSRF/" class="md-nav__link">
         
   
   
@@ -2008,7 +2015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Client-Side-Injections/Checklist/XSS/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Client-Side-Injections/Checklist/XSS/" class="md-nav__link">
         
   
   
@@ -2031,7 +2038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/Client-Side-Injections/Checklist/CSRF/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/Client-Side-Injections/Checklist/CSRF/" class="md-nav__link">
         
   
   
@@ -2133,7 +2140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/File-Upload/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/File-Upload/" class="md-nav__link">
         
   
   
@@ -2156,7 +2163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/LFI/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/LFI/" class="md-nav__link">
         
   
   
@@ -2179,7 +2186,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/RCE/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/RCE/" class="md-nav__link">
         
   
   
@@ -2202,7 +2209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/XXE/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/XXE/" class="md-nav__link">
         
   
   
@@ -2278,7 +2285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/Checklist/File-Upload/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/Checklist/File-Upload/" class="md-nav__link">
         
   
   
@@ -2301,7 +2308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/Checklist/LFI/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/Checklist/LFI/" class="md-nav__link">
         
   
   
@@ -2324,7 +2331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/Checklist/RFI/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/Checklist/RFI/" class="md-nav__link">
         
   
   
@@ -2347,7 +2354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/Checklist/XXE/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Exploit/Injections/File-%26-File-Inclusions/Checklist/XXE/" class="md-nav__link">
         
   
   
@@ -2445,7 +2452,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Bypassing/Bypassing-CAPTCHA/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Bypassing/Bypassing-CAPTCHA/" class="md-nav__link">
         
   
   
@@ -2468,7 +2475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Bypassing/Bypassing-CSRF-Protection/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Bypassing/Bypassing-CSRF-Protection/" class="md-nav__link">
         
   
   
@@ -2491,7 +2498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Web-Bypassing/Bypassing-Rate-Limit-Protection/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Web-Bypassing/Bypassing-Rate-Limit-Protection/" class="md-nav__link">
         
   
   
@@ -2581,7 +2588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Common-Applications/Readme/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Common-Applications/Readme/" class="md-nav__link">
         
   
   
@@ -2604,7 +2611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Common-Applications/PRTG-Network-Monitor/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Common-Applications/PRTG-Network-Monitor/" class="md-nav__link">
         
   
   
@@ -2627,7 +2634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Common-Applications/Apache-Tomcat/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Common-Applications/Apache-Tomcat/" class="md-nav__link">
         
   
   
@@ -2650,7 +2657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Common-Applications/ColdFusion/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Common-Applications/ColdFusion/" class="md-nav__link">
         
   
   
@@ -2673,7 +2680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Common-Applications/Jenkins/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Common-Applications/Jenkins/" class="md-nav__link">
         
   
   
@@ -2696,7 +2703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Common-Applications/GitLab/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Common-Applications/GitLab/" class="md-nav__link">
         
   
   
@@ -2770,7 +2777,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Common-Applications/cms/WordPress/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Common-Applications/cms/WordPress/" class="md-nav__link">
         
   
   
@@ -2793,7 +2800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Common-Applications/cms/Drupal/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Common-Applications/cms/Drupal/" class="md-nav__link">
         
   
   
@@ -2816,7 +2823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Web-Application/Common-Applications/cms/Joomla/" class="md-nav__link">
+      <a href="../../../../../Web-Application/Common-Applications/cms/Joomla/" class="md-nav__link">
         
   
   
@@ -2881,17 +2888,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
         
           
-          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
             
   
   
@@ -2918,7 +2928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Making-Shell-Fully-Interactive/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Making-Shell-Fully-Interactive/" class="md-nav__link">
         
   
   
@@ -2990,7 +3000,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/File-Transfer/Download-Operations/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/File-Transfer/Download-Operations/" class="md-nav__link">
         
   
   
@@ -3013,7 +3023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/File-Transfer/Upload-Operations/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/File-Transfer/Upload-Operations/" class="md-nav__link">
         
   
   
@@ -3148,7 +3158,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Chisel/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Chisel/" class="md-nav__link">
         
   
   
@@ -3171,7 +3181,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/ICMP-Tunneling-with-ptunnel-ng/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/ICMP-Tunneling-with-ptunnel-ng/" class="md-nav__link">
         
   
   
@@ -3194,7 +3204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Ligolo-ng/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Ligolo-ng/" class="md-nav__link">
         
   
   
@@ -3217,7 +3227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Metasploit/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Metasploit/" class="md-nav__link">
         
   
   
@@ -3240,7 +3250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/SSH/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/SSH/" class="md-nav__link">
         
   
   
@@ -3322,7 +3332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Port-Forwarding/Enumeration/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Port-Forwarding/Enumeration/" class="md-nav__link">
         
   
   
@@ -3345,7 +3355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Port-Forwarding/Meterpreter-Tunneling-%26-Port-Forwarding/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Port-Forwarding/Meterpreter-Tunneling-%26-Port-Forwarding/" class="md-nav__link">
         
   
   
@@ -3368,7 +3378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Port-Forwarding/SSH-Port-Forwarding/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Pivoting-Tunneling-and-Port-Forwarding/Port-Forwarding/SSH-Port-Forwarding/" class="md-nav__link">
         
   
   
@@ -3470,7 +3480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Strategy/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Strategy/" class="md-nav__link">
         
   
   
@@ -3493,7 +3503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/System-Enumeration/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/System-Enumeration/" class="md-nav__link">
         
   
   
@@ -3567,7 +3577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Environment-Variables/readme/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Environment-Variables/readme/" class="md-nav__link">
         
   
   
@@ -3590,7 +3600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Environment-Variables/LD_LIBRARY_PATH/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Environment-Variables/LD_LIBRARY_PATH/" class="md-nav__link">
         
   
   
@@ -3613,7 +3623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Environment-Variables/LD_PRELOAD/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Environment-Variables/LD_PRELOAD/" class="md-nav__link">
         
   
   
@@ -3644,7 +3654,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Kernel-Exploits/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Kernel-Exploits/" class="md-nav__link">
         
   
   
@@ -3667,7 +3677,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Passwords-%26-Keys/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Passwords-%26-Keys/" class="md-nav__link">
         
   
   
@@ -3798,7 +3808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Readme/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Readme/" class="md-nav__link">
         
   
   
@@ -3821,7 +3831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Hunting-Cron-Jobs/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Hunting-Cron-Jobs/" class="md-nav__link">
         
   
   
@@ -3844,7 +3854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Exploiting-Cron-PATH/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Exploiting-Cron-PATH/" class="md-nav__link">
         
   
   
@@ -3867,7 +3877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Wildcard-Injection/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Wildcard-Injection/" class="md-nav__link">
         
   
   
@@ -3890,7 +3900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Exploiting-Weak-File-Permissions/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Service-Based/Cron-Jobs/Exploiting-Weak-File-Permissions/" class="md-nav__link">
         
   
   
@@ -3921,7 +3931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Service-Based/Docker/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Service-Based/Docker/" class="md-nav__link">
         
   
   
@@ -3944,7 +3954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Service-Based/Logrotate/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Service-Based/Logrotate/" class="md-nav__link">
         
   
   
@@ -3967,7 +3977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Service-Based/LXD/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Service-Based/LXD/" class="md-nav__link">
         
   
   
@@ -3998,7 +4008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Exploiting-Sudo-Privileges/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Exploiting-Sudo-Privileges/" class="md-nav__link">
         
   
   
@@ -4076,7 +4086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/readme/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/readme/" class="md-nav__link">
         
   
   
@@ -4099,7 +4109,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/Enumerating-SUID-and-SGID-Files/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/Enumerating-SUID-and-SGID-Files/" class="md-nav__link">
         
   
   
@@ -4122,7 +4132,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/Exploiting-Vulnerable-SUID-Binaries/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/Exploiting-Vulnerable-SUID-Binaries/" class="md-nav__link">
         
   
   
@@ -4145,7 +4155,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/Exploiting-PATH-Environment-Injection/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/Exploiting-PATH-Environment-Injection/" class="md-nav__link">
         
   
   
@@ -4168,7 +4178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/Exploiting-Shared-Object-Injection/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/SUID-SGID-Executables/Exploiting-Shared-Object-Injection/" class="md-nav__link">
         
   
   
@@ -4250,7 +4260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Weak-File-Permissions/File-Permissions/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Weak-File-Permissions/File-Permissions/" class="md-nav__link">
         
   
   
@@ -4273,7 +4283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Weak-File-Permissions/etc-passwd/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Weak-File-Permissions/etc-passwd/" class="md-nav__link">
         
   
   
@@ -4296,7 +4306,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Privilege-Escalation/Weak-File-Permissions/etc-shadow/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Privilege-Escalation/Weak-File-Permissions/etc-shadow/" class="md-nav__link">
         
   
   
@@ -4388,7 +4398,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Establishing-Persistence/Add-Account/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Establishing-Persistence/Add-Account/" class="md-nav__link">
         
   
   
@@ -4411,7 +4421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Establishing-Persistence/Cron-Jobs/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Establishing-Persistence/Cron-Jobs/" class="md-nav__link">
         
   
   
@@ -4434,7 +4444,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Establishing-Persistence/SSH-PERSISTENCE/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Establishing-Persistence/SSH-PERSISTENCE/" class="md-nav__link">
         
   
   
@@ -4457,7 +4467,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Linux-Environment/Establishing-Persistence/Startup-Scripts/" class="md-nav__link">
+      <a href="../../../../../Linux-Environment/Establishing-Persistence/Startup-Scripts/" class="md-nav__link">
         
   
   
@@ -4514,17 +4524,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
         
           
-          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
             
   
   
@@ -4600,7 +4613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/File-Transfer/Download-Operations/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/File-Transfer/Download-Operations/" class="md-nav__link">
         
   
   
@@ -4623,7 +4636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/File-Transfer/Upload-Operations/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/File-Transfer/Upload-Operations/" class="md-nav__link">
         
   
   
@@ -4752,7 +4765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Chisel/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Chisel/" class="md-nav__link">
         
   
   
@@ -4775,7 +4788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Ligolo-ng/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Ligolo-ng/" class="md-nav__link">
         
   
   
@@ -4798,7 +4811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Meterpreter/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Pivoting-Tunneling-and-Port-Forwarding/Pivoting/Meterpreter/" class="md-nav__link">
         
   
   
@@ -4894,7 +4907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Strategy/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Strategy/" class="md-nav__link">
         
   
   
@@ -4917,7 +4930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/System-Enumeration/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/System-Enumeration/" class="md-nav__link">
         
   
   
@@ -4940,7 +4953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Credential-Hunting/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Credential-Hunting/" class="md-nav__link">
         
   
   
@@ -5014,7 +5027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Kernel-Exploits/readme/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Kernel-Exploits/readme/" class="md-nav__link">
         
   
   
@@ -5037,7 +5050,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Kernel-Exploits/Enumeration-Kernel-Vuln/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Kernel-Exploits/Enumeration-Kernel-Vuln/" class="md-nav__link">
         
   
   
@@ -5060,7 +5073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Kernel-Exploits/Exploiting-Kernel-Vuln/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Kernel-Exploits/Exploiting-Kernel-Vuln/" class="md-nav__link">
         
   
   
@@ -5197,7 +5210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Permissions-Executable/readme/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Permissions-Executable/readme/" class="md-nav__link">
         
   
   
@@ -5220,7 +5233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Permissions-Executable/Service-Enumeration/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Permissions-Executable/Service-Enumeration/" class="md-nav__link">
         
   
   
@@ -5243,7 +5256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Permissions-Executable/Service-Exploitation/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Permissions-Executable/Service-Exploitation/" class="md-nav__link">
         
   
   
@@ -5325,7 +5338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Service-Permissions/readme/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Service-Permissions/readme/" class="md-nav__link">
         
   
   
@@ -5348,7 +5361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Service-Permissions/Service-Enumeration/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Service-Permissions/Service-Enumeration/" class="md-nav__link">
         
   
   
@@ -5371,7 +5384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Service-Permissions/Service-Exploitation/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Insecure-Service-Permissions/Service-Exploitation/" class="md-nav__link">
         
   
   
@@ -5455,7 +5468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Unquoted-Service-Paths/readme/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Unquoted-Service-Paths/readme/" class="md-nav__link">
         
   
   
@@ -5478,7 +5491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Unquoted-Service-Paths/Service-Hunting/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Unquoted-Service-Paths/Service-Hunting/" class="md-nav__link">
         
   
   
@@ -5501,7 +5514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Unquoted-Service-Paths/Service-Enumeration/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Unquoted-Service-Paths/Service-Enumeration/" class="md-nav__link">
         
   
   
@@ -5524,7 +5537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Unquoted-Service-Paths/Service-Exploitation/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Unquoted-Service-Paths/Service-Exploitation/" class="md-nav__link">
         
   
   
@@ -5604,7 +5617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Weak-Registry-Permissions/Registry-Enumeration/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Weak-Registry-Permissions/Registry-Enumeration/" class="md-nav__link">
         
   
   
@@ -5627,7 +5640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/Weak-Registry-Permissions/Registry-Exploitation/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/Weak-Registry-Permissions/Registry-Exploitation/" class="md-nav__link">
         
   
   
@@ -5658,7 +5671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Service-Exploits/DLL-Hijacking/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Service-Exploits/DLL-Hijacking/" class="md-nav__link">
         
   
   
@@ -5746,7 +5759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Token-Impersonation/readme/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Token-Impersonation/readme/" class="md-nav__link">
         
   
   
@@ -5769,7 +5782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Token-Impersonation/SeBackupPrivilege-SeRestorePrivilege/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Token-Impersonation/SeBackupPrivilege-SeRestorePrivilege/" class="md-nav__link">
         
   
   
@@ -5792,7 +5805,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Token-Impersonation/SeDebugPrivilege/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Token-Impersonation/SeDebugPrivilege/" class="md-nav__link">
         
   
   
@@ -5815,7 +5828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Token-Impersonation/SeImpersonatePrivilege-SeAssignPrimaryTokenPrivilege/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Token-Impersonation/SeImpersonatePrivilege-SeAssignPrimaryTokenPrivilege/" class="md-nav__link">
         
   
   
@@ -5838,7 +5851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Token-Impersonation/SeManageVolumePrivilege/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Token-Impersonation/SeManageVolumePrivilege/" class="md-nav__link">
         
   
   
@@ -5861,7 +5874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Privilege-Escalation/Token-Impersonation/SeTakeOwnershipPrivilege/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Privilege-Escalation/Token-Impersonation/SeTakeOwnershipPrivilege/" class="md-nav__link">
         
   
   
@@ -5961,7 +5974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Establishing-Persistence/Code-Cave-Exploitation/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Establishing-Persistence/Code-Cave-Exploitation/" class="md-nav__link">
         
   
   
@@ -5984,7 +5997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Establishing-Persistence/DLL-Hijacking/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Establishing-Persistence/DLL-Hijacking/" class="md-nav__link">
         
   
   
@@ -6007,7 +6020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Establishing-Persistence/PowerShell-Profile/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Establishing-Persistence/PowerShell-Profile/" class="md-nav__link">
         
   
   
@@ -6030,7 +6043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Establishing-Persistence/Process-Doppelg%C3%A4nging/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Establishing-Persistence/Process-Doppelg%C3%A4nging/" class="md-nav__link">
         
   
   
@@ -6053,7 +6066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Establishing-Persistence/Registry-Keys/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Establishing-Persistence/Registry-Keys/" class="md-nav__link">
         
   
   
@@ -6076,7 +6089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Establishing-Persistence/Scheduled-Tasks/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Establishing-Persistence/Scheduled-Tasks/" class="md-nav__link">
         
   
   
@@ -6099,7 +6112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Establishing-Persistence/Startup-Folder/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Establishing-Persistence/Startup-Folder/" class="md-nav__link">
         
   
   
@@ -6122,7 +6135,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/Establishing-Persistence/WMI-Event-Subscription/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/Establishing-Persistence/WMI-Event-Subscription/" class="md-nav__link">
         
   
   
@@ -6204,7 +6217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/General/Compiling-Exploits/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/General/Compiling-Exploits/" class="md-nav__link">
         
   
   
@@ -6274,7 +6287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/General/Reverse-Shells/MSFvenom/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/General/Reverse-Shells/MSFvenom/" class="md-nav__link">
         
   
   
@@ -6352,7 +6365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Windows-Environment/General/Tricks/Who-Logged-In-and-When/" class="md-nav__link">
+      <a href="../../../../../Windows-Environment/General/Tricks/Who-Logged-In-and-When/" class="md-nav__link">
         
   
   
@@ -6396,8 +6409,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -6416,18 +6431,21 @@
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
         
           
-          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
             
   
   
@@ -6440,7 +6458,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
             اکتیو دایرکتوری (Active Directory)
@@ -6454,7 +6472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/readme/" class="md-nav__link">
+      <a href="../../../../readme/" class="md-nav__link">
         
   
   
@@ -6474,8 +6492,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -6498,11 +6518,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_5_2" id="__nav_2_5_2_label" tabindex="0">
@@ -6518,7 +6538,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_5_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_5_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_5_2">
             <span class="md-nav__icon md-icon"></span>
             اسکن و شناسایی اولیه
@@ -6532,7 +6552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/readme/" class="md-nav__link">
+      <a href="../../../readme/" class="md-nav__link">
         
   
   
@@ -6555,7 +6575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Username-Enumeration/" class="md-nav__link">
+      <a href="../../../Username-Enumeration/" class="md-nav__link">
         
   
   
@@ -6578,7 +6598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/ACL-Enumeration/" class="md-nav__link">
+      <a href="../../../ACL-Enumeration/" class="md-nav__link">
         
   
   
@@ -6650,7 +6670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Credentialed-Enumeration/From-Linux/" class="md-nav__link">
+      <a href="../../../Credentialed-Enumeration/From-Linux/" class="md-nav__link">
         
   
   
@@ -6673,7 +6693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Credentialed-Enumeration/From-Windows/" class="md-nav__link">
+      <a href="../../../Credentialed-Enumeration/From-Windows/" class="md-nav__link">
         
   
   
@@ -6701,8 +6721,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -6719,11 +6741,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_2_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_2_5" checked>
         
           
           <label class="md-nav__link" for="__nav_2_5_2_5" id="__nav_2_5_2_5_label" tabindex="0">
@@ -6739,7 +6761,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_5_2_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_5_2_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_5_2_5">
             <span class="md-nav__icon md-icon"></span>
             ابزارها
@@ -6750,8 +6772,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -6772,11 +6796,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_2_5_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_2_5_1" checked>
         
           
           <label class="md-nav__link" for="__nav_2_5_2_5_1" id="__nav_2_5_2_5_1_label" tabindex="0">
@@ -6792,7 +6816,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_2_5_2_5_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_2_5_2_5_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_5_2_5_1">
             <span class="md-nav__icon md-icon"></span>
             لینوکس
@@ -6803,10 +6827,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Tools/Linux/BloodHound-Queries/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    کوئری‌های BloodHound
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -6817,6 +6861,312 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="فهرست موضوعات">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      فهرست موضوعات
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** لیست همه کاربران متعلق به
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** لیست همه رایانه های متعلق به
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** لیست همه گروه های متعلق به
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** همه اهداف با ارزش بالا را لیست کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه های همه کاربران متعلق به
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kerberoastable" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** همه کاربران Kerberoastable را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spn-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** کاربران را با مجموعه SPN &lt;5 سال ** پیدا کنید
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kerberoastable-da" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** کاربران Kerberoastable را با مسیر DA پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rdp" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن ماشین آلات کاربران دامنه می توانند RDP را به ** پیدا کنند
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه هایی را پیدا کنید که بتوانند رمزهای عبور را مجدداً تنظیم کنند **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه هایی با حقوق مدیر محلی پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** همه جلسات سرپرست دامنه فعال را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** یافتن رایانه هایی با نمایندگی نامشخص **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** یافتن رایانه هایی با سیستم عامل پشتیبانی نشده **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#90" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن کاربرانی که طی 90 روز وارد سیستم شده اند **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#90_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** کاربران را با رمزهای عبور تنظیم شده در طی 90 روز پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** نمایندگی محدود را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mssql" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** یافتن رایانه های MSSQL **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpos" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مشاهده همه gpos **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مشاهده همه گروه های مدیر **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#as-rep" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن کاربران قابل کباب As-Rep **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه های هدف با ارزش بالا را نشان دهید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه هایی را با کاربران و رایانه ها پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kerberoastable_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن کاربران Kerberoastable در گروه های با ارزش بالا **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kerberoastable-adminto" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** کاربران kerberoastable را پیدا کنید و Adminto **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مجوزهای نمایندگی محدود را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpo" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مجوزهای کاربر دامنه را در GPO پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه کاربر غیرقانونی را پیدا کنید حقوق اضافه کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpn" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** اعضای گروه VPN را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن کاربران فعال هرگز وارد سیستم **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مجوزهای متقابل دامنه را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** جلسات کاربر را در یک دامنه خاص پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -6829,7 +7179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Tools/Linux/CrackMapExec/" class="md-nav__link">
+      <a href="../CrackMapExec/" class="md-nav__link">
         
   
   
@@ -6852,7 +7202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Tools/Linux/Enum4linux/" class="md-nav__link">
+      <a href="../Enum4linux/" class="md-nav__link">
         
   
   
@@ -6875,7 +7225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Tools/Linux/Impacket-Toolkit/" class="md-nav__link">
+      <a href="../Impacket-Toolkit/" class="md-nav__link">
         
   
   
@@ -6957,7 +7307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Tools/Windows/PowerShell/" class="md-nav__link">
+      <a href="../../Windows/PowerShell/" class="md-nav__link">
         
   
   
@@ -6980,7 +7330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Tools/Windows/PowerView/" class="md-nav__link">
+      <a href="../../Windows/PowerView/" class="md-nav__link">
         
   
   
@@ -7003,7 +7353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Scanning-%26-Enumeration/Tools/Windows/SharpView/" class="md-nav__link">
+      <a href="../../Windows/SharpView/" class="md-nav__link">
         
   
   
@@ -7156,7 +7506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/Password-Spraying/readme/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/Password-Spraying/readme/" class="md-nav__link">
         
   
   
@@ -7179,7 +7529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/Password-Spraying/From-Linux/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/Password-Spraying/From-Linux/" class="md-nav__link">
         
   
   
@@ -7202,7 +7552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/Password-Spraying/From-Windows/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/Password-Spraying/From-Windows/" class="md-nav__link">
         
   
   
@@ -7284,7 +7634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/NBT-NS-Poisoning/readme/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/NBT-NS-Poisoning/readme/" class="md-nav__link">
         
   
   
@@ -7307,7 +7657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/NBT-NS-Poisoning/From-Linux/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/NBT-NS-Poisoning/From-Linux/" class="md-nav__link">
         
   
   
@@ -7330,7 +7680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/NBT-NS-Poisoning/From-Windows/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/NBT-NS-Poisoning/From-Windows/" class="md-nav__link">
         
   
   
@@ -7412,7 +7762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/Kerberoasting/readme/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/Kerberoasting/readme/" class="md-nav__link">
         
   
   
@@ -7435,7 +7785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/Kerberoasting/From-Linux/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/Kerberoasting/From-Linux/" class="md-nav__link">
         
   
   
@@ -7458,7 +7808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/Kerberoasting/From-Windows/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/Kerberoasting/From-Windows/" class="md-nav__link">
         
   
   
@@ -7540,7 +7890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/ASREPRoasting/readme/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/ASREPRoasting/readme/" class="md-nav__link">
         
   
   
@@ -7563,7 +7913,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/ASREPRoasting/From-Linux/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/ASREPRoasting/From-Linux/" class="md-nav__link">
         
   
   
@@ -7586,7 +7936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/ASREPRoasting/From-Windows/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/ASREPRoasting/From-Windows/" class="md-nav__link">
         
   
   
@@ -7668,7 +8018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/DCSync/readme/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/DCSync/readme/" class="md-nav__link">
         
   
   
@@ -7691,7 +8041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/DCSync/From-Linux/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/DCSync/From-Linux/" class="md-nav__link">
         
   
   
@@ -7714,7 +8064,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Initial-Attack-Vectors/DCSync/From-Windows/" class="md-nav__link">
+      <a href="../../../../Initial-Attack-Vectors/DCSync/From-Windows/" class="md-nav__link">
         
   
   
@@ -7810,7 +8160,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Lateral-Movement/Certificate/" class="md-nav__link">
+      <a href="../../../../Lateral-Movement/Certificate/" class="md-nav__link">
         
   
   
@@ -7833,7 +8183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Lateral-Movement/Kerberos/" class="md-nav__link">
+      <a href="../../../../Lateral-Movement/Kerberos/" class="md-nav__link">
         
   
   
@@ -7856,7 +8206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Lateral-Movement/Mimikatz/" class="md-nav__link">
+      <a href="../../../../Lateral-Movement/Mimikatz/" class="md-nav__link">
         
   
   
@@ -7879,7 +8229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Lateral-Movement/MSSQL/" class="md-nav__link">
+      <a href="../../../../Lateral-Movement/MSSQL/" class="md-nav__link">
         
   
   
@@ -7902,7 +8252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Lateral-Movement/NTHash/" class="md-nav__link">
+      <a href="../../../../Lateral-Movement/NTHash/" class="md-nav__link">
         
   
   
@@ -7925,7 +8275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Lateral-Movement/Password/" class="md-nav__link">
+      <a href="../../../../Lateral-Movement/Password/" class="md-nav__link">
         
   
   
@@ -8007,7 +8357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Domain-Persistence/Custom-SSP/" class="md-nav__link">
+      <a href="../../../../Domain-Persistence/Custom-SSP/" class="md-nav__link">
         
   
   
@@ -8030,7 +8380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Domain-Persistence/DCSync/" class="md-nav__link">
+      <a href="../../../../Domain-Persistence/DCSync/" class="md-nav__link">
         
   
   
@@ -8053,7 +8403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Offensive-Security/Active-Directory/Domain-Persistence/DSRM-Abuse/" class="md-nav__link">
+      <a href="../../../../Domain-Persistence/DSRM-Abuse/" class="md-nav__link">
         
   
   
@@ -8109,8 +8459,302 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      فهرست موضوعات
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** لیست همه کاربران متعلق به
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** لیست همه رایانه های متعلق به
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** لیست همه گروه های متعلق به
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** همه اهداف با ارزش بالا را لیست کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه های همه کاربران متعلق به
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kerberoastable" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** همه کاربران Kerberoastable را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spn-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** کاربران را با مجموعه SPN &lt;5 سال ** پیدا کنید
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kerberoastable-da" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** کاربران Kerberoastable را با مسیر DA پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rdp" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن ماشین آلات کاربران دامنه می توانند RDP را به ** پیدا کنند
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه هایی را پیدا کنید که بتوانند رمزهای عبور را مجدداً تنظیم کنند **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه هایی با حقوق مدیر محلی پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** همه جلسات سرپرست دامنه فعال را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** یافتن رایانه هایی با نمایندگی نامشخص **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** یافتن رایانه هایی با سیستم عامل پشتیبانی نشده **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#90" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن کاربرانی که طی 90 روز وارد سیستم شده اند **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#90_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** کاربران را با رمزهای عبور تنظیم شده در طی 90 روز پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** نمایندگی محدود را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mssql" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** یافتن رایانه های MSSQL **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpos" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مشاهده همه gpos **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مشاهده همه گروه های مدیر **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#as-rep" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن کاربران قابل کباب As-Rep **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه های هدف با ارزش بالا را نشان دهید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه هایی را با کاربران و رایانه ها پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kerberoastable_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن کاربران Kerberoastable در گروه های با ارزش بالا **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kerberoastable-adminto" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** کاربران kerberoastable را پیدا کنید و Adminto **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مجوزهای نمایندگی محدود را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpo" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مجوزهای کاربر دامنه را در GPO پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** گروه کاربر غیرقانونی را پیدا کنید حقوق اضافه کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpn" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** اعضای گروه VPN را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** پیدا کردن کاربران فعال هرگز وارد سیستم **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** مجوزهای متقابل دامنه را پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      ** جلسات کاربر را در یک دامنه خاص پیدا کنید **
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -8126,12 +8770,72 @@
 
 
 
-<h1 id="_1">دوره امنیت تهاجمی<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>سلب مسئولیت:</p>
-<p>این مطالب صرفاً برای اهداف آموزشی ارائه شده است.
-و شما مسئول نحوه استفاده از این اطلاعات هستید.
-ما هیچ نوع فعالیت غیرقانونی یا مضری را تشویق نمیکنیم.
-</p>
+  <h1>کوئری‌های BloodHound</h1>
+
+<h4 id="_1">** لیست همه کاربران متعلق به<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (M: کاربر) که در آن m.owned = True Return M</code></p>
+<h4 id="_2">** لیست همه رایانه های متعلق به<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (M: رایانه) که در آن m.owned = True Return M</code></p>
+<h4 id="_3">** لیست همه گروه های متعلق به<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (M: گروه) که در آن m.owned = True Return M</code></p>
+<h4 id="_4">** همه اهداف با ارزش بالا را لیست کنید **<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (م) که در آن m.highvalue = بازگشت واقعی m</code></p>
+<h4 id="_5">** گروه های همه کاربران متعلق به<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (M: کاربر) که در آن m.owned = درست با M Match p = (m)-[: عضو*1 ..]-&gt; (n: گروه) بازگشت p</code></p>
+<h4 id="kerberoastable">** همه کاربران Kerberoastable را پیدا کنید **<a class="headerlink" href="#kerberoastable" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (n: کاربر) که در آن n.hasspn = بازگشت واقعی n</code></p>
+<h4 id="spn-5">** کاربران را با مجموعه SPN &lt;5 سال ** پیدا کنید<a class="headerlink" href="#spn-5" title="Permanent link">&para;</a></h4>
+<p>`مسابقه (U: کاربر) که در آن u.hasspn = true و upwdlastset &lt;(dateTime (). epochseconds - (5 * 365.25 * 86400)) و نه U.Pwdlastset در [-1.0 ، 0.0] بازگرداندن U.Name ، u.pwdlastset توسط u.pwdlastsett '.</p>
+<h4 id="kerberoastable-da">** کاربران Kerberoastable را با مسیر DA پیدا کنید **<a class="headerlink" href="#kerberoastable-da" title="Permanent link">&para;</a></h4>
+<p><code>match (u: user {hasspn: true}) مسابقه (g: group) که در آن g.objectid با '-512' match p = contestpath ((u)-[*1 ..]-&gt; (g)) به پایان می رسد p</code></p>
+<h4 id="rdp">** پیدا کردن ماشین آلات کاربران دامنه می توانند RDP را به ** پیدا کنند<a class="headerlink" href="#rdp" title="Permanent link">&para;</a></h4>
+<p><code>MATCH P = (G: GROUP)-[: CANRDP]-&gt; (C: رایانه) که G.ObjectId با" -513 "بازگشت P</code></p>
+<h4 id="_6">** گروه هایی را پیدا کنید که بتوانند رمزهای عبور را مجدداً تنظیم کنند **<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
+<p><code>Match P = (M: Group)-[R: ForceChangePassword]-&gt; (N: کاربر) بازگشت P</code></p>
+<h4 id="_7">** گروه هایی با حقوق مدیر محلی پیدا کنید **<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
+<p><code>Match P = (M: Group)-[R: Adminto]-&gt; (N: Computer) P</code></p>
+<h4 id="_8">** همه جلسات سرپرست دامنه فعال را پیدا کنید **<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (n: کاربر)-[: عضو]-&gt; (g: گروه) که در آن G.ObjectId با '-512' مطابقت p = (c: computer)-[: hassession]-&gt; (n) بازگشت p</code></p>
+<h4 id="_9">** یافتن رایانه هایی با نمایندگی نامشخص **<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
+<p>`MATCH (C: COMPUTer</p>
+<h4 id="_10">** یافتن رایانه هایی با سیستم عامل پشتیبانی نشده **<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
+<p>`مسابقه (ح) که در آن H.OperatingSystem = ~ '.*(2000' ''</p>
+<h4 id="90">** پیدا کردن کاربرانی که طی 90 روز وارد سیستم شده اند **<a class="headerlink" href="#90" title="Permanent link">&para;</a></h4>
+<p><code>Match (U: USER) که در آن U.Lastlogon&gt; (DateTime (). Epochseconds - (90 * 86400)) U</code> را برگردانید</p>
+<h4 id="90_1">** کاربران را با رمزهای عبور تنظیم شده در طی 90 روز پیدا کنید **<a class="headerlink" href="#90_1" title="Permanent link">&para;</a></h4>
+<p><code>Match (U: USER) که در آن U.PWDlastSet&gt; (DateTime (). EpochSeconds - (90 * 86400)) U</code> را برگردانید</p>
+<h4 id="_11">** نمایندگی محدود را پیدا کنید **<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h4>
+<p><code>MATCH P = (U: USER)-[: مجاز به todelegate]-&gt; (c: computer) بازگشت p</code></p>
+<h4 id="mssql">** یافتن رایانه های MSSQL **<a class="headerlink" href="#mssql" title="Permanent link">&para;</a></h4>
+<p>"مسابقه (C: رایانه) که در آن هر (x در c.serviceprincipalnames که در آن toupper (x) حاوی" mssql "است) بازگشت c`</p>
+<h4 id="gpos">** مشاهده همه gpos **<a class="headerlink" href="#gpos" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (n: gpo) بازگشت n</code></p>
+<h4 id="_12">** مشاهده همه گروه های مدیر **<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h4>
+<p>`مسابقه (N: گروه) که در آن Toupper (n.name) حاوی" مدیر "بازگشت n"</p>
+<h4 id="as-rep">** پیدا کردن کاربران قابل کباب As-Rep **<a class="headerlink" href="#as-rep" title="Permanent link">&para;</a></h4>
+<p>`MATCH (U: USER {DontreqPreauth: True}) U را برگردانید</p>
+<h4 id="_13">** گروه های هدف با ارزش بالا را نشان دهید **<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h4>
+<p><code>match p = (n: user)-[r: عضو*1 ..]-&gt; (m: group {highvalue: true}) بازگشت p</code></p>
+<h4 id="_14">** گروه هایی را با کاربران و رایانه ها پیدا کنید **<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h4>
+<p><code>Match (C: Computer)-[R: عضو*1 ..]-&gt; (GroupSwithComps: Group) با GroupSwithComps مطابقت دارد (U: کاربر)-[R: عضو*1 ..]-&gt; (GroupSwithComps) به عنوان GroupSwithCompsandUsers</code></p>
+<h4 id="kerberoastable_1">** پیدا کردن کاربران Kerberoastable در گروه های با ارزش بالا **<a class="headerlink" href="#kerberoastable_1" title="Permanent link">&para;</a></h4>
+<p><code>Match (U: User)-[R: عضو*1 ..]-&gt; (G: گروه) که در آن g.highvalue = true و u.hasspn = بازگشت واقعی u</code></p>
+<h4 id="kerberoastable-adminto">** کاربران kerberoastable را پیدا کنید و Adminto **<a class="headerlink" href="#kerberoastable-adminto" title="Permanent link">&para;</a></h4>
+<p>`MATCH (U: USER {HASSPN: TRUE}) مسابقه اختیاری (U)-[R: Adminto]-&gt; (C: رایانه) U را برگردانید</p>
+<h4 id="_15">** مجوزهای نمایندگی محدود را پیدا کنید **<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (C: رایانه) که در آن c.allowedtodelegate null بازگشت c</code></p>
+<h4 id="gpo">** مجوزهای کاربر دامنه را در GPO پیدا کنید **<a class="headerlink" href="#gpo" title="Permanent link">&para;</a></h4>
+<p><code>match p = (u: user)-[r: alextendedright</code></p>
+<h4 id="_16">** گروه کاربر غیرقانونی را پیدا کنید حقوق اضافه کنید **<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h4>
+<p><code>MATCH (N: USER {Admincount: false}) مطابقت P = AllShortestPaths ((n)-[R: AddMember*1 ..]-&gt; (M: Group)) بازگشت P</code></p>
+<h4 id="vpn">** اعضای گروه VPN را پیدا کنید **<a class="headerlink" href="#vpn" title="Permanent link">&para;</a></h4>
+<p><code>match p = (u: user)-[: عضو]-&gt; (g: گروه) که در آن toupper (g.name) حاوی" vpn "بازگشت p</code></p>
+<h4 id="_17">** پیدا کردن کاربران فعال هرگز وارد سیستم **<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h4>
+<p><code>مسابقه (n: کاربر) که در آن n.lastlogontimestamp = -1.0 و n.enabled = True Return n</code></p>
+<h4 id="_18">** مجوزهای متقابل دامنه را پیدا کنید **<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h4>
+<p><code>Match P = (n)-[r]-&gt; (m) که در آن n.domain = m.domain بازگشت p</code> نیست</p>
+<h4 id="_19">** جلسات کاربر را در یک دامنه خاص پیدا کنید **<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h4>
+<p><code>match p = (m: computer)-[r: hassession]-&gt; (n: user {دامنه: 'specialdomainvalue'}) بازگشت p</code></p>
 
 
 
@@ -8169,15 +8873,31 @@
       
       <nav class="md-footer__inner md-grid" aria-label="پاورقی" >
         
+          
+          <a href="../../../Credentialed-Enumeration/From-Windows/" class="md-footer__link md-footer__link--prev" aria-label="قبلی: از طریق ویندوز">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                قبلی
+              </span>
+              <div class="md-ellipsis">
+                از طریق ویندوز
+              </div>
+            </div>
+          </a>
+        
         
           
-          <a href="Offensive-Security/Network/tools/nmap/" class="md-footer__link md-footer__link--next" aria-label="بعدی: Nmap">
+          <a href="../CrackMapExec/" class="md-footer__link md-footer__link--next" aria-label="بعدی: CrackMapExec (CME)">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 بعدی
               </span>
               <div class="md-ellipsis">
-                Nmap
+                CrackMapExec (CME)
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -8217,10 +8937,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u06a9\u067e\u06cc \u0634\u062f", "clipboard.copy": "\u06a9\u067e\u06cc \u06a9\u0631\u062f\u0646", "search.result.more.one": "1 \u0645\u0648\u0631\u062f \u062f\u06cc\u06af\u0631 \u062f\u0631 \u0627\u06cc\u0646 \u0635\u0641\u062d\u0647", "search.result.more.other": "# \u0645\u0648\u0631\u062f \u062f\u06cc\u06af\u0631 \u062f\u0631 \u0627\u06cc\u0646 \u0635\u0641\u062d\u0647", "search.result.none": "\u0633\u0646\u062f\u06cc \u06cc\u0627\u0641\u062a \u0646\u0634\u062f", "search.result.one": "1 \u0633\u0646\u062f \u06cc\u0627\u0641\u062a \u0634\u062f", "search.result.other": "# \u0633\u0646\u062f \u06cc\u0627\u0641\u062a \u0634\u062f", "search.result.placeholder": "\u0628\u0631\u0627\u06cc \u0634\u0631\u0648\u0639 \u062c\u0633\u062a\u062c\u0648 \u062a\u0627\u06cc\u067e \u06a9\u0646\u06cc\u062f", "search.result.term.missing": "\u0645\u0648\u062c\u0648\u062f \u0646\u06cc\u0633\u062a", "select.version": "\u0627\u0646\u062a\u062e\u0627\u0628 \u0648\u06cc\u0631\u0627\u06cc\u0634"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../../../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u06a9\u067e\u06cc \u0634\u062f", "clipboard.copy": "\u06a9\u067e\u06cc \u06a9\u0631\u062f\u0646", "search.result.more.one": "1 \u0645\u0648\u0631\u062f \u062f\u06cc\u06af\u0631 \u062f\u0631 \u0627\u06cc\u0646 \u0635\u0641\u062d\u0647", "search.result.more.other": "# \u0645\u0648\u0631\u062f \u062f\u06cc\u06af\u0631 \u062f\u0631 \u0627\u06cc\u0646 \u0635\u0641\u062d\u0647", "search.result.none": "\u0633\u0646\u062f\u06cc \u06cc\u0627\u0641\u062a \u0646\u0634\u062f", "search.result.one": "1 \u0633\u0646\u062f \u06cc\u0627\u0641\u062a \u0634\u062f", "search.result.other": "# \u0633\u0646\u062f \u06cc\u0627\u0641\u062a \u0634\u062f", "search.result.placeholder": "\u0628\u0631\u0627\u06cc \u0634\u0631\u0648\u0639 \u062c\u0633\u062a\u062c\u0648 \u062a\u0627\u06cc\u067e \u06a9\u0646\u06cc\u062f", "search.result.term.missing": "\u0645\u0648\u062c\u0648\u062f \u0646\u06cc\u0633\u062a", "select.version": "\u0627\u0646\u062a\u062e\u0627\u0628 \u0648\u06cc\u0631\u0627\u06cc\u0634"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../../../../../../assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>
