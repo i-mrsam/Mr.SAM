@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/i-mRsam/i-mRsam/main/profile-summary-card-output/gruvbox/0-profile-details.svg" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=i-mrsam&theme=gruvbox" />
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/i-mRsam/i-mRsam/main/profile-summary-card-output/gruvbox/1-repos-per-language.svg" />
