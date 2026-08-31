@@ -1,7 +1,28 @@
 {
-  "updated": "2026-08-31 11:20 UTC",
+  "updated": "2026-08-31 18:18 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+      "date": "2026-08-31",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+      "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+      "date": "2026-08-31",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+      "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+      "date": "2026-08-31",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Breaking Claude Code Opus 5 Auto Mode",
       "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
@@ -27,27 +48,6 @@
       "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
       "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
       "date": "2026-08-27",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "What the Data Says About AI in Security Operations in 2026",
-      "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
-      "date": "2026-08-27",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
-      "url": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
-      "date": "2026-08-26",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
-      "url": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
-      "date": "2026-08-26",
       "source": "The Hacker News",
       "kind": "article"
     },
