@@ -1,0 +1,60 @@
+name: CI
+
+# Lightweight health checks: validate Python, JavaScript, JSON and XML
+# files on every push / pull request so a broken file never reaches Pages.
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate Python sources
+        run: python -m py_compile scripts/update_news.py
+
+      - name: Validate JavaScript
+        run: node --check app.js
+
+      - name: Validate JSON files
+        run: |
+          set -e
+          for f in data/fa.json data/en.json news.json; do
+            if [ -f "$f" ]; then
+              python3 -m json.tool "$f" > /dev/null
+              echo "OK: $f"
+            fi
+          done
+
+      - name: Validate sitemap.xml
+        run: |
+          python3 -c "import xml.dom.minidom; xml.dom.minidom.parse('sitemap.xml')"
+          echo "OK: sitemap.xml"
+
+      - name: Check required assets exist
+        run: |
+          set -e
+          for f in index.html ai.html style.css app.js og-image.png robots.txt sitemap.xml \
+                   vendor/d3.v7.min.js vendor/jquery-3.7.1.min.js vendor/jquery.dataTables.min.js \
+                   vendor/marked.min.js vendor/fontawesome/all.min.css \
+                   vendor/fonts/Vazirmatn-font-face.css; do
+            test -f "$f" || { echo "MISSING: $f"; exit 1; }
+            echo "OK: $f"
+          done
