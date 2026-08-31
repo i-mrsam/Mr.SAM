@@ -1,0 +1,44 @@
+name: Update AI Security News Feed
+
+# Regenerates news.json (used by the live threat ticker on ai.html)
+# every 6 hours so the static site always shows fresh, real threat intel
+# without calling third-party APIs from the browser.
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: true
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build news.json and leaderboard.json
+        run: python scripts/update_news.py
+
+      - name: Commit generated files if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json leaderboard.json
+          if git diff --cached --quiet; then
+            echo "No changes to generated files"
+            exit 0
+          fi
+          git commit -m "chore(news): refresh AI security feed [skip ci]"
+          git push
