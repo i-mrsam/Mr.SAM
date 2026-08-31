@@ -87,7 +87,12 @@
     "search_placeholder": "جستجو...",
     "ticker": {
         "header_title": "آسیب پذیری های اخیر",
+        "updated_label": "آخرین به‌روزرسانی:",
         "alert_label": "هشدار آسیب‌پذیری هوش مصنوعی",
+        "filter_all": "همه",
+        "filter_cve": "آسیب‌پذیری‌ها",
+        "filter_news": "اخبار",
+        "cards_title": "برجسته‌ترین تهدیدهای اخیر",
         "details_label": "[جزئیات]",
         "fallback_1": "CVE-2024-34359: LlamaIndex Server-Side Request Forgery",
         "fallback_1_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34359",

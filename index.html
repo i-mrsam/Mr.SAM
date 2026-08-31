@@ -9,8 +9,18 @@
       padding: 0;
     }
   </style>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mr. SAM</title>
+  <link rel="canonical" href="https://mrsam.me/" />
+  <meta property="og:title" content="Mr. SAM — Cyber Security" />
+  <meta property="og:description" content="Bilingual cybersecurity education platform: courses, LLM security and red teaming." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mrsam.me/" />
+  <meta property="og:image" content="https://mrsam.me/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mr. SAM — Cyber Security" />
+  <meta name="twitter:description" content="Bilingual cybersecurity education platform: courses, LLM security and red teaming." />
+  <meta name="twitter:image" content="https://mrsam.me/og-image.png" />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,7 +28,6 @@
   <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
   <link rel="shortcut icon" href="favicon/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
-  <link rel="manifest" href="favicon/site.webmanifest" />
 
 <style>
   :root {
@@ -1081,7 +1090,7 @@ button, [onclick] {
         prompt: "> ",
         welcome: `Welcome`,
         promptHelp: `Type 'help' for commands. Press 'Esc' to exit terminal.`,
-        helpText: `Available commands:\n- about: Who am I\n- commands: Windows, Linux & RE commands\n- updates: The Newest in Security\n- ai: Open AI Assistant\n- chatbot: Open AI Assistant\n- clear: Clear the terminal\n- exit: Exit terminal mode`,
+        helpText: `Available commands:\n- about: Who am I\n- commands: Windows, Linux & RE commands\n- updates: The Newest in Security\n- ai: Open the AI Security page\n- chatbot: Open the AI Chatbot\n- clear: Clear the terminal\n- exit: Exit terminal mode`,
         projectsLoading: `... Updating ...`,
         projectsError: `Error fetching. Visit: https://github.com/i-mrsam`,
         langSwitched: `Language switched to English.`,
@@ -1103,7 +1112,7 @@ button, [onclick] {
         prompt: "> ",
         welcome: `خوش آمدید`,
         promptHelp: `برای شروع 'راهنما' را تایپ کنید. برای خروج از حالت ترمینال کلید 'Esc' را فشار دهید.`,
-        helpText: `دستورات موجود:\n- درباره: درباره من\n- دستورات: دستورات ویندوز، لینوکس و مهندسی معکوس\n- تازه ها: جدیدترین ها از دنیای امنیت\n- هوش مصنوعی: گفتگوی متنی با هوش مصنوعی\n- چت بات: گفتگوی متنی با هوش مصنوعی\n- پاک کن: پاک کردن ترمینال\n- خروج: خروج از حالت ترمینال`,
+        helpText: `دستورات موجود:\n- درباره: درباره من\n- دستورات: دستورات ویندوز، لینوکس و مهندسی معکوس\n- تازه ها: جدیدترین ها از دنیای امنیت\n- هوش مصنوعی: صفحه امنیت هوش مصنوعی\n- چت بات: گفتگوی متنی با هوش مصنوعی\n- پاک کن: پاک کردن ترمینال\n- خروج: خروج از حالت ترمینال`,
         projectsLoading: `در حال بروز رسانی ...`,
         projectsError: `خطا در دریافت. به این آدرس مراجعه کنید: https://github.com/i-mrsam`,
         langSwitched: `زبان به فارسی تغییر یافت.`,
@@ -1477,9 +1486,9 @@ button, [onclick] {
         'about': { fn: commandFunctions.aboutme, label: "About Me", icon: "fa-solid fa-id-card" },
         'tutorials': { fn: commandFunctions.openMainTutorials, label: "Tutorials", icon: "fa-solid fa-graduation-cap" },
         'updates': { fn: commandFunctions.news, label: "Security Updates", icon: "fa-solid fa-newspaper" },
-        'ai_link': { url: "ai.html", label: "Ai", icon: "fa-solid fa-robot" },
+        'ai': { fn: () => { window.open('ai.html', '_blank'); return ''; }, label: "AI Security", icon: "fa-solid fa-robot" },
         'commands': { fn: commandFunctions.openTerminalCommands },
-        'ai': { fn: openAiPanel },
+        'chatbot': { fn: openAiPanel, label: "AI Chatbot", icon: "fa-solid fa-comments" },
         'help': { fn: () => messages.en.helpText },
         'clear': { fn: commandFunctions.clear },
         'exit': { fn: () => { if(isTerminalMode) toggleTerminalMode(); return ''; } }
@@ -1488,9 +1497,9 @@ button, [onclick] {
         'درباره': { fn: commandFunctions.aboutme, label: "درباره من", icon: "fa-solid fa-id-card" },
         'آموزش': { fn: commandFunctions.openMainTutorials, label: "آموزش", icon: "fa-solid fa-graduation-cap" },
         'تازه ها': { fn: commandFunctions.news, label: "تازه های امنیت", icon: "fa-solid fa-newspaper" },
-        'هوش_مصنوعی_لینک': { url: "ai.html", label: "هوش مصنوعی", icon: "fa-solid fa-robot" },
+        'هوش مصنوعی': { fn: () => { window.open('ai.html', '_blank'); return ''; }, label: "هوش مصنوعی", icon: "fa-solid fa-robot" },
         'دستورات': { fn: commandFunctions.openTerminalCommands },
-        'هوش مصنوعی': { fn: openAiPanel },
+        'چت بات': { fn: openAiPanel, label: "چت بات", icon: "fa-solid fa-comments" },
         'راهنما': { fn: () => messages.fa.helpText },
         'پاک کن': { fn: commandFunctions.clear },
         'خروج': { fn: () => { if(isTerminalMode) toggleTerminalMode(); return ''; } }
@@ -1547,8 +1556,6 @@ button, [onclick] {
         if (isSwitch) { initialText += messages[lang].langSwitched + '\n\n'; }
         initialText += `${messages[lang].welcome}\n${messages[lang].promptHelp}\n\n`;
         let outputHTML = makeLinksClickable(initialText);
-        const hintHTML = `<div class="welcome-hint" style="text-align: inherit; font-size: 0.9rem; margin-top: 10px;" onclick="toggleTerminalMode()">${messages[lang].guiHint}</div>`;
-        outputHTML += hintHTML;
         output.innerHTML = outputHTML;
         input.disabled = false;
         input.focus();
@@ -1614,16 +1621,30 @@ button, [onclick] {
                 if (wasInGuiMode) { toggleTerminalMode(); }
                 setTimeout(() => {
                     let outputToAdd = makeLinksClickable(`\n> ${command}\n${result}\n\n`);
-                    if (wasInGuiMode) {
-                        const hintHTML = `<div class="welcome-hint" style="text-align: inherit; font-size: 0.9rem; margin-top: 10px;" onclick="toggleTerminalMode()">${messages[lang].guiHint}</div>`;
-                        outputToAdd += hintHTML;
-                    }
                     output.innerHTML += outputToAdd;
                     output.scrollTop = output.scrollHeight;
                 }, 100);
             }
         }
     });
+
+    function normalizeCommand(cmd) {
+        return cmd.trim().toLowerCase()
+            .replace(/[\u200c\u200d\u200b\u00a0]+/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+    const commandAliases = {
+        en: {
+            'chat bot': 'chatbot',
+            'ai chatbot': 'chatbot',
+            'chat-bot': 'chatbot'
+        },
+        fa: {
+            'چت‌بات': 'چت بات',
+            'هوش‌مصنوعی': 'هوش مصنوعی'
+        }
+    };
 
     input.addEventListener('keydown', async (e) => {
       if (e.key === 'Enter') {
@@ -1636,7 +1657,10 @@ button, [onclick] {
         if (cmdText) {
             commandHistory.push(cmdText); historyIndex = commandHistory.length;
             const commandSet = lang === 'fa' ? commandStructure.fa : commandStructure.en;
-            const commandToExecute = cmdText.toLowerCase();
+            let commandToExecute = normalizeCommand(cmdText);
+            // resolve aliases
+            const aliases = commandAliases[lang] || {};
+            if (aliases[commandToExecute]) commandToExecute = aliases[commandToExecute];
             if (commandSet[commandToExecute]) {
                 const res = await commandSet[commandToExecute].fn();
                 if (res) output.innerHTML += makeLinksClickable(`${res}\n\n`);

@@ -46,15 +46,11 @@ const contentContainer = document.getElementById('contentContainer');
 
 async function init() {
     setTheme(currentTheme);
-    
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('sw.js').catch(err => console.log('SW registration failed:', err));
-        });
-    }
 
-    await loadLangData('fa');
-    await loadLangData('en');
+    // Restore saved language preference (falls back to Persian).
+    currentLang = localStorage.getItem('lang') === 'en' ? 'en' : 'fa';
+
+    await Promise.all([loadLangData('fa'), loadLangData('en')]);
     
     renderApp();
     setupSearch();
@@ -67,16 +63,18 @@ async function init() {
 
     langToggle.addEventListener('click', async () => {
         currentLang = currentLang === 'fa' ? 'en' : 'fa';
+        localStorage.setItem('lang', currentLang);
         renderApp();
     });
 }
 
 function setTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
+    // Show the theme the user can switch to: sun in dark mode, moon in light mode.
     if (theme === 'dark') {
-        themeIcon.className = 'fa-solid fa-moon';
-    } else {
         themeIcon.className = 'fa-solid fa-sun';
+    } else {
+        themeIcon.className = 'fa-solid fa-moon';
     }
 }
 
@@ -165,7 +163,10 @@ function renderApp() {
     });
 
     setupScrollSpy();
-    setTimeout(() => { initD3Graph(); loadLeaderboard(); }, 500);
+    setTimeout(() => {
+        try { initD3Graph(); } catch (e) { console.error('D3 graph error:', e); }
+        loadLeaderboard();
+    }, 500);
 }
 
 // Copy Code Functionality
@@ -217,73 +218,158 @@ document.addEventListener('DOMContentLoaded', init);
 
 
 // 1. Ticker Logic (Live Threat Feed)
+// Data comes from ./news.json which is regenerated every 6 hours by the
+// GitHub Actions workflow (.github/workflows/update-news.yml) from NVD,
+// Simon Willison and The Hacker News. No third-party API is called from
+// the browser (no rate limits, no CORS problems) and every string is
+// HTML-escaped before injection (XSS-safe).
 let cachedThreats = null;
+let newsFilter = 'all'; // 'all' | 'cve' | 'news'
+
+function escapeHtml(str) {
+    return String(str == null ? '' : str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+// Only allow http(s) URLs — blocks javascript:/data:/vbscript: schemes.
+function safeUrl(url) {
+    const raw = String(url == null ? '' : url).trim();
+    return /^https?:\/\//i.test(raw) ? raw : '#';
+}
+
+function getTickerLabels() {
+    const tData = (contentData[currentLang] && contentData[currentLang].ticker) || {};
+    return {
+        headerTitle: tData.header_title || (currentLang === 'fa' ? 'آسیب‌پذیری های اخیر' : 'LIVE THREAT INTEL'),
+        alertLabel: tData.alert_label || (currentLang === 'fa' ? 'هشدار آسیب‌پذیری LLM' : 'LLM Vulnerability Alert'),
+        detailsLabel: tData.details_label || (currentLang === 'fa' ? '[جزئیات]' : '[Details]'),
+        updatedLabel: tData.updated_label || (currentLang === 'fa' ? 'آخرین به‌روزرسانی:' : 'Last updated:'),
+        filterAll: tData.filter_all || (currentLang === 'fa' ? 'همه' : 'All'),
+        filterCve: tData.filter_cve || (currentLang === 'fa' ? 'آسیب‌پذیری‌ها' : 'Vulnerabilities'),
+        filterNews: tData.filter_news || (currentLang === 'fa' ? 'اخبار' : 'News'),
+        cardsTitle: tData.cards_title || (currentLang === 'fa' ? 'برجسته‌ترین تهدیدهای اخیر' : 'Top Recent Threats')
+    };
+}
+
+// Show only items matching the selected filter chip ('all' | 'cve' | 'news').
+function filterNewsItems(items, filter) {
+    if (filter === 'cve') return items.filter(i => i.kind === 'cve');
+    if (filter === 'news') return items.filter(i => i.kind !== 'cve');
+    return items;
+}
+
+function renderNewsItems(items) {
+    const { detailsLabel } = getTickerLabels();
+    return items.map(item => {
+        const date = item.date ? `<span class="ticker-date">${escapeHtml(item.date)}</span>` : '';
+        const source = item.source ? `<span class="ticker-source">${escapeHtml(item.source)}</span>` : '';
+        const title = escapeHtml(item.title);
+        const url = safeUrl(item.url);
+        return `<div class="ticker-item"><i class="fa-solid fa-triangle-exclamation"></i> ${date} ${source} ${title} <a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(detailsLabel)}</a></div>`;
+    }).join('');
+}
+
 function fetchThreats() {
     const container = document.getElementById('liveTickerContainer');
     if (!container) return;
 
-    const tData = contentData[currentLang].ticker || {};
-    const headerTitle = tData.header_title || (currentLang === 'fa' ? 'آسیب‌پذیری های اخیر' : 'LIVE THREAT INTEL');
-    const alertLabel = tData.alert_label || (currentLang === 'fa' ? 'هشدار آسیب‌پذیری LLM' : 'LLM Vulnerability Alert');
-    const detailsLabel = tData.details_label || (currentLang === 'fa' ? '[جزئیات]' : '[Details]');
+    const labels = getTickerLabels();
     const dir = currentLang === 'fa' ? 'rtl' : 'ltr';
-    
+
     const fallbackLink = (text, url) => {
         if (!text) return '';
-        const link = url ? ` <a href="${url}" target="_blank" rel="noopener noreferrer">${detailsLabel}</a>` : '';
-        return `<div class="ticker-item"><i class="fa-solid fa-triangle-exclamation"></i> ${text}${link}</div>`;
+        const link = url ? ` <a href="${safeUrl(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(labels.detailsLabel)}</a>` : '';
+        return `<div class="ticker-item"><i class="fa-solid fa-triangle-exclamation"></i> ${escapeHtml(text)}${link}</div>`;
     };
 
     const fallbackItems = [
-        fallbackLink(tData.fallback_1 || (currentLang === 'fa' ? 'خطا در دریافت' : 'Error fetching'), tData.fallback_1_url),
-        fallbackLink(tData.fallback_2, tData.fallback_2_url),
-        fallbackLink(tData.fallback_3, tData.fallback_3_url)
+        fallbackLink((contentData[currentLang] && contentData[currentLang].ticker || {}).fallback_1 || (currentLang === 'fa' ? 'خطا در دریافت' : 'Error fetching'), (contentData[currentLang] && contentData[currentLang].ticker || {}).fallback_1_url),
+        fallbackLink((contentData[currentLang] && contentData[currentLang].ticker || {}).fallback_2, (contentData[currentLang] && contentData[currentLang].ticker || {}).fallback_2_url),
+        fallbackLink((contentData[currentLang] && contentData[currentLang].ticker || {}).fallback_3, (contentData[currentLang] && contentData[currentLang].ticker || {}).fallback_3_url)
     ].join('');
 
-    const renderHtml = (itemsHTML) => {
+    const renderChips = (items) => {
+        const chips = [
+            { key: 'all', label: labels.filterAll, count: items.length },
+            { key: 'cve', label: labels.filterCve, count: items.filter(i => i.kind === 'cve').length },
+            { key: 'news', label: labels.filterNews, count: items.filter(i => i.kind !== 'cve').length }
+        ];
+        return `<div class="ticker-filters">` + chips.map(c =>
+            `<button type="button" class="ticker-chip${newsFilter === c.key ? ' active' : ''}" onclick="setNewsFilter('${c.key}')">${escapeHtml(c.label)} <span class="ticker-chip-count">${c.count}</span></button>`
+        ).join('') + `</div>`;
+    };
+
+    const renderCards = (items) => {
+        const top = items.slice(0, 4);
+        if (!top.length) return '';
+        const cards = top.map(item =>
+            `<a class="news-card" href="${safeUrl(item.url)}" target="_blank" rel="noopener noreferrer">` +
+                `<span class="news-card-meta"><span class="news-card-source">${escapeHtml(item.source || '')}</span>` +
+                `<span class="news-card-date">${escapeHtml(item.date || '')}</span></span>` +
+                `<span class="news-card-title">${escapeHtml(item.title || '')}</span>` +
+                `<span class="news-card-link">${escapeHtml(labels.detailsLabel)}</span>` +
+            `</a>`
+        ).join('');
+        return `<div class="news-cards"><h3 class="news-cards-heading"><i class="fa-solid fa-bolt"></i> ${escapeHtml(labels.cardsTitle)}</h3>` +
+               `<div class="news-cards-grid">${cards}</div></div>`;
+    };
+
+    const renderHtml = (itemsHTML, updatedAt, items) => {
+        const updated = updatedAt ? ` <span class="ticker-updated">${escapeHtml(labels.updatedLabel)} ${escapeHtml(updatedAt)}</span>` : '';
+        const hasData = Array.isArray(items) && items.length > 0;
+        const filtered = hasData ? renderNewsItems(filterNewsItems(items, newsFilter)) : itemsHTML;
+        const emptyMsg = (hasData && !filtered)
+            ? `<div class="ticker-item"><i class="fa-solid fa-circle-info"></i> ${currentLang === 'fa' ? 'موردی در این دسته یافت نشد' : 'No items in this category'}</div>`
+            : '';
         container.innerHTML = `
             <div class="ticker-main-container" dir="${dir}">
                 <div class="ticker-header">
-                    <i class="fa-solid fa-satellite-dish blink-icon"></i> ${headerTitle}
+                    <i class="fa-solid fa-satellite-dish blink-icon"></i> ${escapeHtml(labels.headerTitle)}${updated}
                 </div>
+                ${hasData ? renderChips(items) : ''}
                 <div class="ticker-wrap">
                     <div class="ticker-move">
-                        ${itemsHTML}
-                        ${itemsHTML}
+                        ${filtered || itemsHTML}
+                        ${filtered || itemsHTML}
+                        ${emptyMsg}
                     </div>
                 </div>
             </div>
+            ${hasData ? renderCards(items) : ''}
         `;
     };
 
-
+    // Serve from the per-page-session cache when available.
     if (cachedThreats) {
-        let itemsHTML = '';
-        cachedThreats.forEach(repo => {
-            itemsHTML += `<div class="ticker-item"><i class="fa-solid fa-triangle-exclamation"></i> ${repo.name}: ${repo.description ? repo.description.substring(0, 50) + '...' : alertLabel} <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer">${detailsLabel}</a></div>`;
-        });
-        renderHtml(itemsHTML);
+        renderHtml('', cachedThreats.updated, cachedThreats.items);
         return;
     }
 
-    fetch('https://api.github.com/search/repositories?q=CVE+OR+vulnerability+LLM+OR+AI+in:description,readme&sort=stars&order=desc&per_page=5')
-        .then(response => response.json())
+    fetch('news.json', { cache: 'no-cache' })
+        .then(response => {
+            if (!response.ok) throw new Error('HTTP ' + response.status);
+            return response.json();
+        })
         .then(data => {
-            if(data && data.items) {
-                cachedThreats = data.items;
-                let itemsHTML = '';
-                cachedThreats.forEach(repo => {
-                    itemsHTML += `<div class="ticker-item"><i class="fa-solid fa-triangle-exclamation"></i> ${repo.name}: ${repo.description ? repo.description.substring(0, 50) + '...' : alertLabel} <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer">${detailsLabel}</a></div>`;
-                });
-                renderHtml(itemsHTML);
+            if (data && Array.isArray(data.items) && data.items.length) {
+                cachedThreats = data;
+                renderHtml('', data.updated, data.items);
             } else {
-                throw new Error("No data");
+                throw new Error("Empty news feed");
             }
         })
-        .catch(err => {
-            renderHtml(fallbackItems);
-        });
+        .catch(() => renderHtml(fallbackItems));
 }
+
+// Re-render the ticker/cards when a filter chip is clicked.
+window.setNewsFilter = function (kind) {
+    newsFilter = kind;
+    if (cachedThreats) fetchThreats();
+};
 
 function runSimLogic(payloadType, termBody, lang) {
     termBody.innerHTML += `<div class="log-line log-system">-----------------------------------</div>`;
@@ -588,74 +674,89 @@ function initD3Graph() {
     }
 }
 
-// 3. Leaderboard Logic (GitHub Issues Backend & DataTables)
+// 3. Leaderboard Logic (static leaderboard.json built by GitHub Actions,
+//    with the live GitHub API as fallback)
 async function loadLeaderboard() {
     const tbody = document.getElementById('lb-tbody');
     if(!tbody) return;
     
     // Destroy previous DataTable instance if it exists
-    if ($.fn.DataTable.isDataTable('#leaderboard-table')) {
+    if (window.jQuery && $.fn.DataTable && $.fn.DataTable.isDataTable('#leaderboard-table')) {
         $('#leaderboard-table').DataTable().destroy();
     }
     
     tbody.innerHTML = "<tr><td colspan='4' style='text-align:center;'>Loading from GitHub...</td></tr>";
     
+    let issues = null;
+
+    // Primary source: static leaderboard.json generated server-side by the
+    // update-news workflow — no browser rate limits.
     try {
-        const response = await fetch('https://api.github.com/repos/i-mrsam/MrDexter/issues?labels=leaderboard&state=all&per_page=100');
-        const issues = await response.json();
-        
-        tbody.innerHTML = "";
-        
-        if (!Array.isArray(issues)) {
-            throw new Error(issues.message || "Invalid data from GitHub API. Possibly rate limited.");
+        const res = await fetch('leaderboard.json', { cache: 'no-cache' });
+        if (res.ok) {
+            const data = await res.json();
+            if (Array.isArray(data.items)) issues = data.items;
         }
-        
+    } catch (e) { /* fall back to the live API below */ }
+
+    // Fallback: live GitHub API (subject to 60 req/hour rate limits).
+    if (!issues) {
+        try {
+            const response = await fetch('https://api.github.com/repos/i-mrsam/MrDexter/issues?labels=leaderboard&state=all&per_page=100');
+            const data = await response.json();
+            if (Array.isArray(data)) issues = data;
+        } catch (e) { issues = null; }
+    }
+    
+    tbody.innerHTML = "";
+    
+    if (!Array.isArray(issues)) {
+        tbody.innerHTML = `<tr><td colspan='4' style='text-align:center;'>${currentLang === 'fa' ? 'خطا در دریافت داده‌ها / Rate limited' : 'Failed to load leaderboard data. Possibly rate limited.'}</td></tr>`;
+    } else {
         issues.forEach(issue => {
             // Title format expected: "[Leaderboard] HackerName - TargetModel"
-            let title = issue.title.replace('[Leaderboard]', '').trim();
+            let title = String(issue.title || '').replace('[Leaderboard]', '').trim();
             let parts = title.split('-');
-            let hacker = parts[0] ? parts[0].trim() : 'Unknown';
-            let target = parts[1] ? parts[1].trim() : 'Unknown';
-            let payload = issue.body ? issue.body : '';
-            let date = new Date(issue.created_at).toLocaleDateString();
+            let hacker = escapeHtml(parts[0] ? parts[0].trim() : 'Unknown');
+            let target = escapeHtml(parts[1] ? parts[1].trim() : 'Unknown');
+            let payload = escapeHtml(String(issue.body || ''));
+            let date = escapeHtml(new Date(issue.created_at).toLocaleDateString());
             
             const tr = document.createElement('tr');
             tr.innerHTML = `<td>${hacker}</td><td>${target}</td><td><code>${payload.substring(0, 60)}...</code></td><td>${date}</td>`;
             tbody.appendChild(tr);
         });
-        
-    } catch(err) {
-        console.error(err);
-        tbody.innerHTML = ""; // Let DataTables handle empty state instead of colspan
     }
     
     // Initialize DataTable
-    $('#leaderboard-table').DataTable({
-        pageLength: 10,
-        responsive: true,
-        order: [[3, 'desc']], // Order by date descending
-        language: currentLang === 'fa' ? {
-            search: "جستجو:",
-            lengthMenu: "نمایش _MENU_ رکورد",
-            info: "نمایش _START_ تا _END_ از _TOTAL_ رکورد",
-            paginate: {
-                first: "اول",
-                last: "آخر",
-                next: "بعدی",
-                previous: "قبلی"
+    if (window.jQuery && $.fn.DataTable) {
+        $('#leaderboard-table').DataTable({
+            pageLength: 10,
+            responsive: true,
+            order: [[3, 'desc']], // Order by date descending
+            language: currentLang === 'fa' ? {
+                search: "جستجو:",
+                lengthMenu: "نمایش _MENU_ رکورد",
+                info: "نمایش _START_ تا _END_ از _TOTAL_ رکورد",
+                paginate: {
+                    first: "اول",
+                    last: "آخر",
+                    next: "بعدی",
+                    previous: "قبلی"
+                }
+            } : {
+                search: "Search:",
+                lengthMenu: "Show _MENU_ entries",
+                info: "Showing _START_ to _END_ of _TOTAL_ entries",
+                paginate: {
+                    first: "First",
+                    last: "Last",
+                    next: "Next",
+                    previous: "Previous"
+                }
             }
-        } : {
-            search: "Search:",
-            lengthMenu: "Show _MENU_ entries",
-            info: "Showing _START_ to _END_ of _TOTAL_ entries",
-            paginate: {
-                first: "First",
-                last: "Last",
-                next: "Next",
-                previous: "Previous"
-            }
-        }
-    });
+        });
+    }
 }
 
 function submitLeaderboard() {

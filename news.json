@@ -1,0 +1,111 @@
+{
+  "updated": "2026-08-31 07:19 UTC",
+  "count": 15,
+  "items": [
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "date": "2026-08-27",
+      "source": "Simon Willison",
+      "kind": "article"
+    },
+    {
+      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+      "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+      "date": "2026-08-27",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+      "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+      "date": "2026-08-27",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "date": "2026-08-27",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "What the Data Says About AI in Security Operations in 2026",
+      "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+      "date": "2026-08-27",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+      "url": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+      "date": "2026-08-26",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
+      "url": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+      "date": "2026-08-26",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "CVE-2026-79784: Vocos instantiates a class named by a configuration file without restricting which class may…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79784",
+      "date": "2026-08-25",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-79785: X-AnyLabeling's model downloader disabled TLS certificate verification. download_with_retry i…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79785",
+      "date": "2026-08-25",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-76841: Xinference loads models with Hugging Face remote code execution unconditionally enabled, and…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76841",
+      "date": "2026-08-24",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-15679: Hugging Face PyTorch Image Models checkpoint Deserialization of Untrusted Data Remote Code Ex…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15679",
+      "date": "2026-08-20",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-73032: PapersGPT for Zotero 0.6.1 contains a remote code execution vulnerability that allows attacke…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73032",
+      "date": "2026-08-11",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-73036: Bash-it 3.2.0 contains a terminal escape sequence injection vulnerability in the barbuk theme…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73036",
+      "date": "2026-08-11",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-21387: Protection mechanism failure for some Intel(R) LLM Library for PyTorch within Ring 3: User Ap…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21387",
+      "date": "2026-08-11",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-24693: Protection mechanism failure for some Intel(R) oneCCL Bindings for PyTorch before version v2.…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24693",
+      "date": "2026-08-11",
+      "source": "NVD",
+      "kind": "cve"
+    }
+  ]
+}

@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="title">Mr. SAM</title>
     
-    <!-- PWA Manifest -->
-    <link rel="manifest" href="manifest.json">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
     <meta name="theme-color" content="#0b0f19">
 
     <!-- SEO and Meta Tags -->
@@ -19,26 +22,39 @@
     <meta property="og:description" content="Enterprise-grade bilingual guide to AI security and Red Teaming.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mrsam.me/ai.html">
+    <meta property="og:image" content="https://mrsam.me/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Mr. SAM">
     
-    <!-- Fonts: Vazirmatn for FA, Inter for EN -->
-    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.0.0/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LLM Security & Vulnerabilities Guide">
+    <meta name="twitter:description" content="Enterprise-grade bilingual guide to AI security and Red Teaming.">
+    <meta name="twitter:image" content="https://mrsam.me/og-image.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mrsam.me/ai.html">
+    
+    <!-- Fonts: Vazirmatn (self-hosted) for FA, Inter (Google Fonts) for EN -->
+    <link href="vendor/fonts/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     
-    <!-- FontAwesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Self-hosted vendor assets (zero external CDN dependency) -->
+    <link rel="stylesheet" href="vendor/fontawesome/all.min.css">
+    <link rel="stylesheet" href="vendor/jquery.dataTables.min.css">
     
-    <!-- D3.js for Graph -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- D3.js for Graph (deferred) -->
+    <script defer src="vendor/d3.v7.min.js"></script>
     
-    <!-- jQuery & DataTables for Leaderboard -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
-    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <!-- jQuery & DataTables for Leaderboard (deferred) -->
+    <script defer src="vendor/jquery-3.7.1.min.js"></script>
+    <script defer src="vendor/jquery.dataTables.min.js"></script>
     
-    <!-- Marked.js for Markdown parsing -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Marked.js for Markdown parsing (deferred) -->
+    <script defer src="vendor/marked.min.js"></script>
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
@@ -129,6 +145,6 @@
     </div>
 
     <!-- Scripts -->
-    <script src="app.js"></script>
+    <script defer src="app.js"></script>
 </body>
 </html>

@@ -87,7 +87,12 @@
     "search_placeholder": "Search...",
     "ticker": {
         "header_title": "LIVE THREAT INTEL",
+        "updated_label": "Last updated:",
         "alert_label": "LLM Vulnerability Alert",
+        "filter_all": "All",
+        "filter_cve": "Vulnerabilities",
+        "filter_news": "News",
+        "cards_title": "Top Recent Threats",
         "details_label": "[Details]",
         "fallback_1": "CVE-2024-34359: LlamaIndex Server-Side Request Forgery",
         "fallback_1_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34359",
