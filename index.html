@@ -1488,7 +1488,7 @@ button, [onclick] {
         'updates': { fn: commandFunctions.news, label: "Security Updates", icon: "fa-solid fa-newspaper" },
         'ai': { fn: () => { window.open('ai.html', '_blank'); return ''; }, label: "AI Security", icon: "fa-solid fa-robot" },
         'commands': { fn: commandFunctions.openTerminalCommands },
-        'chatbot': { fn: openAiPanel, label: "AI Chatbot", icon: "fa-solid fa-comments" },
+        'chatbot': { fn: openAiPanel },
         'help': { fn: () => messages.en.helpText },
         'clear': { fn: commandFunctions.clear },
         'exit': { fn: () => { if(isTerminalMode) toggleTerminalMode(); return ''; } }
@@ -1499,7 +1499,7 @@ button, [onclick] {
         'تازه ها': { fn: commandFunctions.news, label: "تازه های امنیت", icon: "fa-solid fa-newspaper" },
         'هوش مصنوعی': { fn: () => { window.open('ai.html', '_blank'); return ''; }, label: "هوش مصنوعی", icon: "fa-solid fa-robot" },
         'دستورات': { fn: commandFunctions.openTerminalCommands },
-        'چت بات': { fn: openAiPanel, label: "چت بات", icon: "fa-solid fa-comments" },
+        'چت بات': { fn: openAiPanel },
         'راهنما': { fn: () => messages.fa.helpText },
         'پاک کن': { fn: commandFunctions.clear },
         'خروج': { fn: () => { if(isTerminalMode) toggleTerminalMode(); return ''; } }
