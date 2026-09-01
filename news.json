@@ -1,7 +1,21 @@
 {
-  "updated": "2026-09-01 02:16 UTC",
+  "updated": "2026-09-01 10:37 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+      "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+      "date": "2026-09-01",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+      "url": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+      "date": "2026-09-01",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
       "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
@@ -33,20 +47,6 @@
     {
       "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
       "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-      "date": "2026-08-27",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-      "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-      "date": "2026-08-27",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
       "date": "2026-08-27",
       "source": "The Hacker News",
       "kind": "article"
