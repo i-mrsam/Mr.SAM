@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-02 01:38 UTC",
+  "updated": "2026-09-02 10:03 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+      "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+      "date": "2026-09-02",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
       "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
@@ -42,13 +49,6 @@
       "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
       "date": "2026-08-27",
       "source": "Simon Willison",
-      "kind": "article"
-    },
-    {
-      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
-      "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-      "date": "2026-08-27",
-      "source": "The Hacker News",
       "kind": "article"
     },
     {
