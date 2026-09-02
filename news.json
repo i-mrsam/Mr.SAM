@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-02 15:26 UTC",
+  "updated": "2026-09-02 20:12 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "date": "2026-09-02",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
       "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
@@ -34,13 +41,6 @@
       "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
       "url": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
       "date": "2026-09-01",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
-      "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
-      "date": "2026-08-31",
       "source": "The Hacker News",
       "kind": "article"
     },
