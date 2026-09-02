@@ -1,7 +1,21 @@
 {
-  "updated": "2026-09-02 10:03 UTC",
+  "updated": "2026-09-02 15:26 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "date": "2026-09-02",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+      "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+      "date": "2026-09-02",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
       "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
@@ -26,20 +40,6 @@
     {
       "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
       "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
-      "date": "2026-08-31",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-      "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
-      "date": "2026-08-31",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-      "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
       "date": "2026-08-31",
       "source": "The Hacker News",
       "kind": "article"
