@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-04 01:37 UTC",
+  "updated": "2026-09-04 10:03 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+      "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+      "date": "2026-09-04",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
       "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
@@ -33,13 +40,6 @@
     {
       "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
       "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
-      "date": "2026-09-01",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-      "url": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
       "date": "2026-09-01",
       "source": "The Hacker News",
       "kind": "article"
