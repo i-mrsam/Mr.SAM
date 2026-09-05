@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04 19:58 UTC",
+  "updated": "2026-09-05 01:38 UTC",
   "count": 15,
   "items": [
     {
@@ -87,6 +87,13 @@
       "kind": "cve"
     },
     {
+      "title": "CVE-2026-73487: Flowise before 3.1.3 contains a regex-based Python code validator bypass in CSV and Airtable…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73487",
+      "date": "2026-08-13",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-73032: PapersGPT for Zotero 0.6.1 contains a remote code execution vulnerability that allows attacke…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73032",
       "date": "2026-08-11",
@@ -96,13 +103,6 @@
     {
       "title": "CVE-2026-73036: Bash-it 3.2.0 contains a terminal escape sequence injection vulnerability in the barbuk theme…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73036",
-      "date": "2026-08-11",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-21387: Protection mechanism failure for some Intel(R) LLM Library for PyTorch within Ring 3: User Ap…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21387",
       "date": "2026-08-11",
       "source": "NVD",
       "kind": "cve"
