@@ -1,7 +1,21 @@
 {
-  "updated": "2026-09-08 10:10 UTC",
+  "updated": "2026-09-08 15:29 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+      "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+      "date": "2026-09-08",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+      "date": "2026-09-08",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
       "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
@@ -26,20 +40,6 @@
     {
       "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
       "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
-      "date": "2026-09-02",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
-      "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
-      "date": "2026-09-02",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
-      "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
       "date": "2026-09-02",
       "source": "The Hacker News",
       "kind": "article"
