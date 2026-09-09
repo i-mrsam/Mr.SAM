@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08 20:24 UTC",
+  "updated": "2026-09-09 01:48 UTC",
   "count": 15,
   "items": [
     {
@@ -80,6 +80,20 @@
       "kind": "cve"
     },
     {
+      "title": "CVE-2026-75858: CodeWhale (packages codewhale / codewhale-tui) versions >= 0.8.41 and < 0.8.64 contain a remo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75858",
+      "date": "2026-08-18",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-75913: CodeWhale (codewhale / codewhale-tui) versions >= 0.8.41 and < 0.8.64 contain an argument inj…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75913",
+      "date": "2026-08-18",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-73485: Flowise before 3.1.3 contains a code injection vulnerability in the Airtable Agent node that…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73485",
       "date": "2026-08-13",
@@ -89,20 +103,6 @@
     {
       "title": "CVE-2026-73487: Flowise before 3.1.3 contains a regex-based Python code validator bypass in CSV and Airtable…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73487",
-      "date": "2026-08-13",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-21832: HCL AION is affected by a vulnerability where indirect prompt injection can lead to HTML inje…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21832",
-      "date": "2026-08-13",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-73506: Oh My Posh is the most customisable and low-latency cross platform/shell prompt renderer. Pri…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73506",
       "date": "2026-08-13",
       "source": "NVD",
       "kind": "cve"
