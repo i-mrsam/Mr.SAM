@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09 01:48 UTC",
+  "updated": "2026-09-09 10:14 UTC",
   "count": 15,
   "items": [
     {
@@ -27,20 +27,6 @@
       "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
       "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
       "date": "2026-09-04",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
-      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
-      "date": "2026-09-02",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
-      "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
-      "date": "2026-09-02",
       "source": "The Hacker News",
       "kind": "article"
     },
@@ -103,6 +89,20 @@
     {
       "title": "CVE-2026-73487: Flowise before 3.1.3 contains a regex-based Python code validator bypass in CSV and Airtable…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73487",
+      "date": "2026-08-13",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-21832: HCL AION is affected by a vulnerability where indirect prompt injection can lead to HTML inje…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21832",
+      "date": "2026-08-13",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-73506: Oh My Posh is the most customisable and low-latency cross platform/shell prompt renderer. Pri…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73506",
       "date": "2026-08-13",
       "source": "NVD",
       "kind": "cve"
