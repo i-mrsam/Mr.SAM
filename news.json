@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09 20:07 UTC",
+  "updated": "2026-09-10 01:43 UTC",
   "count": 15,
   "items": [
     {
@@ -80,6 +80,13 @@
       "kind": "cve"
     },
     {
+      "title": "CVE-2026-76832: Agno's PythonTools in libs/agno/agno/tools/python.py contains a path traversal vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76832",
+      "date": "2026-08-19",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-75858: CodeWhale (packages codewhale / codewhale-tui) versions >= 0.8.41 and < 0.8.64 contain a remo…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75858",
       "date": "2026-08-18",
@@ -94,16 +101,9 @@
       "kind": "cve"
     },
     {
-      "title": "CVE-2026-73485: Flowise before 3.1.3 contains a code injection vulnerability in the Airtable Agent node that…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73485",
-      "date": "2026-08-13",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-73487: Flowise before 3.1.3 contains a regex-based Python code validator bypass in CSV and Airtable…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73487",
-      "date": "2026-08-13",
+      "title": "CVE-2026-75130: Context7 through 2.1.2 contains a prompt injection vulnerability that allows attackers to exe…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75130",
+      "date": "2026-08-18",
       "source": "NVD",
       "kind": "cve"
     }
