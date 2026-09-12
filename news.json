@@ -1,7 +1,21 @@
 {
-  "updated": "2026-09-12 09:41 UTC",
+  "updated": "2026-09-12 14:29 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+      "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+      "date": "2026-09-12",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "date": "2026-09-12",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
       "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
@@ -27,20 +41,6 @@
       "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
       "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
       "date": "2026-09-10",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-      "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
-      "date": "2026-09-10",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-      "date": "2026-09-09",
       "source": "The Hacker News",
       "kind": "article"
     },
