@@ -1,7 +1,21 @@
 {
-  "updated": "2026-09-14 17:07 UTC",
+  "updated": "2026-09-14 21:06 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "CVE-2026-55832: Tract is a tiny, no-nonsense, self-contained TensorFlow and ONNX inference toolkit. Prior to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55832",
+      "date": "2026-09-14",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-55093: Tract is a tiny, no-nonsense, self-contained TensorFlow and ONNX inference toolkit. Prior to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55093",
+      "date": "2026-09-14",
+      "source": "NVD",
+      "kind": "cve"
+    },
     {
       "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
       "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
@@ -89,20 +103,6 @@
     {
       "title": "CVE-2026-75858: CodeWhale (packages codewhale / codewhale-tui) versions >= 0.8.41 and < 0.8.64 contain a remo…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75858",
-      "date": "2026-08-18",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-75913: CodeWhale (codewhale / codewhale-tui) versions >= 0.8.41 and < 0.8.64 contain an argument inj…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75913",
-      "date": "2026-08-18",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-75130: Context7 through 2.1.2 contains a prompt injection vulnerability that allows attackers to exe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75130",
       "date": "2026-08-18",
       "source": "NVD",
       "kind": "cve"
