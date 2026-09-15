@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14 21:06 UTC",
+  "updated": "2026-09-15 02:06 UTC",
   "count": 15,
   "items": [
     {
@@ -80,6 +80,13 @@
       "kind": "cve"
     },
     {
+      "title": "CVE-2026-76072: The Continue CLI applies an incomplete denylist as its only barrier to destructive shell comm…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76072",
+      "date": "2026-08-24",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-76841: Xinference loads models with Hugging Face remote code execution unconditionally enabled, and…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76841",
       "date": "2026-08-24",
@@ -97,13 +104,6 @@
       "title": "CVE-2026-76832: Agno's PythonTools in libs/agno/agno/tools/python.py contains a path traversal vulnerability…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76832",
       "date": "2026-08-19",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-75858: CodeWhale (packages codewhale / codewhale-tui) versions >= 0.8.41 and < 0.8.64 contain a remo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75858",
-      "date": "2026-08-18",
       "source": "NVD",
       "kind": "cve"
     }
