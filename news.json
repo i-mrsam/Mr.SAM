@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-16 15:39 UTC",
+  "updated": "2026-09-16 20:31 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+      "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+      "date": "2026-09-16",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
       "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
@@ -48,13 +55,6 @@
       "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
       "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
       "date": "2026-09-12",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-      "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-      "date": "2026-09-11",
       "source": "The Hacker News",
       "kind": "article"
     },
