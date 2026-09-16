@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-16 10:23 UTC",
+  "updated": "2026-09-16 15:39 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+      "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+      "date": "2026-09-16",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "CVE-2026-55832: Tract is a tiny, no-nonsense, self-contained TensorFlow and ONNX inference toolkit. Prior to…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55832",
@@ -47,13 +54,6 @@
     {
       "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
       "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-      "date": "2026-09-11",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-      "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
       "date": "2026-09-11",
       "source": "The Hacker News",
       "kind": "article"
