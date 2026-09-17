@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-16 20:31 UTC",
+  "updated": "2026-09-17 02:01 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "CVE-2026-62997: Kedro-Datasets provides data connectors for Kedro. From version 5.0.0 until 9.5.0, kedro_data…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62997",
+      "date": "2026-09-16",
+      "source": "NVD",
+      "kind": "cve"
+    },
     {
       "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
       "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
@@ -97,13 +104,6 @@
       "title": "CVE-2026-15679: Hugging Face PyTorch Image Models checkpoint Deserialization of Untrusted Data Remote Code Ex…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15679",
       "date": "2026-08-20",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-76832: Agno's PythonTools in libs/agno/agno/tools/python.py contains a path traversal vulnerability…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76832",
-      "date": "2026-08-19",
       "source": "NVD",
       "kind": "cve"
     }
