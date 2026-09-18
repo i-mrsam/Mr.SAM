@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-18 15:18 UTC",
+  "updated": "2026-09-18 20:04 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "CVE-2025-66455: LMDeploy is a toolkit for compressing, deploying, and serving large language models. Starting…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66455",
+      "date": "2026-09-18",
+      "source": "NVD",
+      "kind": "cve"
+    },
     {
       "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
       "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
@@ -96,13 +103,6 @@
     {
       "title": "CVE-2026-76072: The Continue CLI applies an incomplete denylist as its only barrier to destructive shell comm…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76072",
-      "date": "2026-08-24",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-76841: Xinference loads models with Hugging Face remote code execution unconditionally enabled, and…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76841",
       "date": "2026-08-24",
       "source": "NVD",
       "kind": "cve"
