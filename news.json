@@ -1,7 +1,21 @@
 {
-  "updated": "2026-09-18 10:09 UTC",
+  "updated": "2026-09-18 15:18 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+      "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+      "date": "2026-09-18",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "date": "2026-09-18",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
       "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
@@ -57,20 +71,6 @@
       "date": "2026-09-14",
       "source": "NVD",
       "kind": "cve"
-    },
-    {
-      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
-      "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
-      "date": "2026-09-14",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-      "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-      "date": "2026-09-14",
-      "source": "The Hacker News",
-      "kind": "article"
     },
     {
       "title": "Breaking Claude Code Opus 5 Auto Mode",
