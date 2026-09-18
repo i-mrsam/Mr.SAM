@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-17 20:38 UTC",
+  "updated": "2026-09-18 01:48 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Self-generated prompt injections in compaction summaries",
+      "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "date": "2026-09-17",
+      "source": "Simon Willison",
+      "kind": "article"
+    },
     {
       "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
       "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
@@ -97,13 +104,6 @@
       "title": "CVE-2026-76841: Xinference loads models with Hugging Face remote code execution unconditionally enabled, and…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76841",
       "date": "2026-08-24",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-15679: Hugging Face PyTorch Image Models checkpoint Deserialization of Untrusted Data Remote Code Ex…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15679",
-      "date": "2026-08-20",
       "source": "NVD",
       "kind": "cve"
     }
