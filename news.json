@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-19 01:53 UTC",
+  "updated": "2026-09-19 09:49 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "CVE-2025-66455: LMDeploy is a toolkit for compressing, deploying, and serving large language models. Starting…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66455",
@@ -54,13 +61,6 @@
     {
       "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
       "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
-      "date": "2026-09-16",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
-      "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
       "date": "2026-09-16",
       "source": "The Hacker News",
       "kind": "article"
