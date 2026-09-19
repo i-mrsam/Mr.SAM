@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-19 09:49 UTC",
+  "updated": "2026-09-19 14:55 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
       "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
@@ -57,13 +64,6 @@
       "date": "2026-09-16",
       "source": "NVD",
       "kind": "cve"
-    },
-    {
-      "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
-      "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
-      "date": "2026-09-16",
-      "source": "The Hacker News",
-      "kind": "article"
     },
     {
       "title": "CVE-2026-55832: Tract is a tiny, no-nonsense, self-contained TensorFlow and ONNX inference toolkit. Prior to…",
