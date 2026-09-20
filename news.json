@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19 19:41 UTC",
+  "updated": "2026-09-20 01:56 UTC",
   "count": 15,
   "items": [
     {
@@ -87,6 +87,13 @@
       "kind": "article"
     },
     {
+      "title": "CVE-2026-75062: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') in the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75062",
+      "date": "2026-08-26",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-55557: browse-mcp is a Playwright-based headless-browser MCP server for MCP-capable agents. Prior to…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55557",
       "date": "2026-08-25",
@@ -96,13 +103,6 @@
     {
       "title": "CVE-2026-79784: Vocos instantiates a class named by a configuration file without restricting which class may…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79784",
-      "date": "2026-08-25",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-79785: X-AnyLabeling's model downloader disabled TLS certificate verification. download_with_retry i…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79785",
       "date": "2026-08-25",
       "source": "NVD",
       "kind": "cve"
