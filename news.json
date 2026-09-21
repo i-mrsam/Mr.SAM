@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-21 11:14 UTC",
+  "updated": "2026-09-21 17:16 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+      "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+      "date": "2026-09-21",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "CVE-2026-94093: A security vulnerability has been detected in DLR-RM stable-baselines3 up to 2.9.0. This affe…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94093",
@@ -56,13 +63,6 @@
       "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
       "date": "2026-09-17",
       "source": "Simon Willison",
-      "kind": "article"
-    },
-    {
-      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-      "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-      "date": "2026-09-17",
-      "source": "The Hacker News",
       "kind": "article"
     },
     {
