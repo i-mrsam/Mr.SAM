@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-22 02:04 UTC",
+  "updated": "2026-09-22 10:26 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "date": "2026-09-22",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
       "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
@@ -47,13 +54,6 @@
     {
       "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
       "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-      "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
       "date": "2026-09-18",
       "source": "The Hacker News",
       "kind": "article"
