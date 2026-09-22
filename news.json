@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-22 10:26 UTC",
+  "updated": "2026-09-22 15:50 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+      "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+      "date": "2026-09-22",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
       "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
@@ -47,13 +54,6 @@
     {
       "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
       "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-      "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
       "date": "2026-09-18",
       "source": "The Hacker News",
       "kind": "article"
