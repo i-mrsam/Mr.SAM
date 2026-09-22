@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-22 15:50 UTC",
+  "updated": "2026-09-22 20:34 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "date": "2026-09-22",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
       "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
@@ -50,13 +57,6 @@
       "date": "2026-09-18",
       "source": "NVD",
       "kind": "cve"
-    },
-    {
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "kind": "article"
     },
     {
       "title": "Self-generated prompt injections in compaction summaries",
