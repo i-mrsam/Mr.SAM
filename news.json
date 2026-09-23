@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22 20:34 UTC",
+  "updated": "2026-09-23 02:02 UTC",
   "count": 15,
   "items": [
     {
@@ -94,18 +94,18 @@
       "kind": "cve"
     },
     {
+      "title": "CVE-2026-37003: Agno up to and including 2.5.8 is vulnerable to Remote Code Execution (RCE) via prompt inject…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37003",
+      "date": "2026-08-27",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "Breaking Claude Code Opus 5 Auto Mode",
       "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
       "date": "2026-08-27",
       "source": "Simon Willison",
       "kind": "article"
-    },
-    {
-      "title": "CVE-2026-75062: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') in the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75062",
-      "date": "2026-08-26",
-      "source": "NVD",
-      "kind": "cve"
     }
   ]
 }
