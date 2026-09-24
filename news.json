@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-24 10:37 UTC",
+  "updated": "2026-09-24 16:00 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+      "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+      "date": "2026-09-24",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
       "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
@@ -33,13 +40,6 @@
     {
       "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
       "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "date": "2026-09-22",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
-      "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
       "date": "2026-09-22",
       "source": "The Hacker News",
       "kind": "article"
