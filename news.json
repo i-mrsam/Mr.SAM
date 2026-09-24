@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-24 01:51 UTC",
+  "updated": "2026-09-24 10:37 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+      "date": "2026-09-24",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
       "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
@@ -33,13 +40,6 @@
     {
       "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
       "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
-      "date": "2026-09-22",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-      "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
       "date": "2026-09-22",
       "source": "The Hacker News",
       "kind": "article"
