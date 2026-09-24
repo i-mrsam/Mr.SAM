@@ -1,7 +1,14 @@
 {
-  "updated": "2026-09-24 16:00 UTC",
+  "updated": "2026-09-24 20:51 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+      "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+      "date": "2026-09-24",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
       "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
@@ -34,13 +41,6 @@
       "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
       "url": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
       "date": "2026-09-23",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "date": "2026-09-22",
       "source": "The Hacker News",
       "kind": "article"
     },
