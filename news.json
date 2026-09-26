@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25 20:48 UTC",
+  "updated": "2026-09-26 02:14 UTC",
   "count": 15,
   "items": [
     {
@@ -101,11 +101,11 @@
       "kind": "cve"
     },
     {
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "title": "CVE-2026-74820: ServiceNow has remediated a SQL injection vulnerability that was identified in in the Service…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74820",
       "date": "2026-08-27",
-      "source": "Simon Willison",
-      "kind": "article"
+      "source": "NVD",
+      "kind": "cve"
     }
   ]
 }
