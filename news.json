@@ -1,7 +1,21 @@
 {
-  "updated": "2026-09-29 02:57 UTC",
+  "updated": "2026-09-29 11:41 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+      "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+      "date": "2026-09-29",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+      "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+      "date": "2026-09-29",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "IAM for AI agents: A Practical Enterprise Framework",
       "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
@@ -27,20 +41,6 @@
       "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
       "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
       "date": "2026-09-28",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-      "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-      "date": "2026-09-28",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-      "date": "2026-09-26",
       "source": "The Hacker News",
       "kind": "article"
     },
