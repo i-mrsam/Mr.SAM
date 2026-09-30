@@ -1,7 +1,21 @@
 {
-  "updated": "2026-09-30 11:28 UTC",
+  "updated": "2026-09-30 17:05 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "date": "2026-09-30",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+      "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+      "date": "2026-09-30",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
       "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
@@ -26,20 +40,6 @@
     {
       "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
       "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-      "date": "2026-09-28",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-      "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-      "date": "2026-09-28",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-      "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
       "date": "2026-09-28",
       "source": "The Hacker News",
       "kind": "article"
