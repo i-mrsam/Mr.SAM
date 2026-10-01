@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-01 11:56 UTC",
+  "updated": "2026-10-01 17:40 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+      "url": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+      "date": "2026-10-01",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
       "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
@@ -33,13 +40,6 @@
     {
       "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
       "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
-      "date": "2026-09-29",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
-      "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
       "date": "2026-09-29",
       "source": "The Hacker News",
       "kind": "article"
