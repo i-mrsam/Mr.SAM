@@ -1,7 +1,21 @@
 {
-  "updated": "2026-10-01 02:43 UTC",
+  "updated": "2026-10-01 11:56 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+      "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+      "date": "2026-10-01",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+      "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+      "date": "2026-10-01",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
       "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
@@ -27,20 +41,6 @@
       "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
       "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
       "date": "2026-09-29",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "IAM for AI agents: A Practical Enterprise Framework",
-      "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
-      "date": "2026-09-28",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-      "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-      "date": "2026-09-28",
       "source": "The Hacker News",
       "kind": "article"
     },
