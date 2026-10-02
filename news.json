@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-02 11:27 UTC",
+  "updated": "2026-10-02 16:54 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+      "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+      "date": "2026-10-02",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
       "url": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
@@ -34,13 +41,6 @@
       "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
       "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
       "date": "2026-09-30",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
-      "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
-      "date": "2026-09-29",
       "source": "The Hacker News",
       "kind": "article"
     },
