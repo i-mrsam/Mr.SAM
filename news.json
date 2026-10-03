@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02 21:30 UTC",
+  "updated": "2026-10-03 02:33 UTC",
   "count": 15,
   "items": [
     {
@@ -87,22 +87,22 @@
       "kind": "cve"
     },
     {
+      "title": "CVE-2026-77956: Improper Control of Generation of Code (Code Injection) vulnerability in ash-project ash_ai a…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77956",
+      "date": "2026-08-31",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-82233: SiYuan before v3.8.1 contains a path traversal vulnerability in the asset.upload MCP tool tha…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82233",
+      "date": "2026-08-28",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-18885: ServiceNow has remediated a code injection vulnerability that was identified in the ServiceNo…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18885",
-      "date": "2026-08-27",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-37003: Agno up to and including 2.5.8 is vulnerable to Remote Code Execution (RCE) via prompt inject…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37003",
-      "date": "2026-08-27",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-74820: ServiceNow has remediated a SQL injection vulnerability that was identified in in the Service…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74820",
       "date": "2026-08-27",
       "source": "NVD",
       "kind": "cve"
