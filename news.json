@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-04 03:05 UTC",
+  "updated": "2026-10-04 11:25 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+      "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+      "date": "2026-10-04",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
       "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
@@ -34,13 +41,6 @@
       "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
       "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
       "date": "2026-10-01",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
-      "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
-      "date": "2026-09-30",
       "source": "The Hacker News",
       "kind": "article"
     },
