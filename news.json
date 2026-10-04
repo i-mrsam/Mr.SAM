@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03 20:17 UTC",
+  "updated": "2026-10-04 03:05 UTC",
   "count": 15,
   "items": [
     {
@@ -94,16 +94,16 @@
       "kind": "cve"
     },
     {
-      "title": "CVE-2026-82233: SiYuan before v3.8.1 contains a path traversal vulnerability in the asset.upload MCP tool tha…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82233",
-      "date": "2026-08-28",
+      "title": "CVE-2026-82217: In Eclipse Theia versions 1.73.0 up to but not including 1.75.0, the AI \"Agent Mode\" file-cha…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82217",
+      "date": "2026-08-31",
       "source": "NVD",
       "kind": "cve"
     },
     {
-      "title": "CVE-2026-18885: ServiceNow has remediated a code injection vulnerability that was identified in the ServiceNo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18885",
-      "date": "2026-08-27",
+      "title": "CVE-2026-82233: SiYuan before v3.8.1 contains a path traversal vulnerability in the asset.upload MCP tool tha…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82233",
+      "date": "2026-08-28",
       "source": "NVD",
       "kind": "cve"
     }
