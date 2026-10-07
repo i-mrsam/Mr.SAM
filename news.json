@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-07 02:56 UTC",
+  "updated": "2026-10-07 12:10 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+      "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+      "date": "2026-10-07",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
       "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
@@ -34,13 +41,6 @@
       "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
       "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
       "date": "2026-10-04",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
-      "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
-      "date": "2026-10-02",
       "source": "The Hacker News",
       "kind": "article"
     },
