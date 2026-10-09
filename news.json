@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-09 03:19 UTC",
+  "updated": "2026-10-09 12:10 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+      "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
+      "date": "2026-10-09",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
       "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
@@ -33,13 +40,6 @@
     {
       "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
       "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-      "date": "2026-10-05",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-      "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
       "date": "2026-10-05",
       "source": "The Hacker News",
       "kind": "article"
