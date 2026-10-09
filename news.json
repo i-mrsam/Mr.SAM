@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-09 12:10 UTC",
+  "updated": "2026-10-09 21:56 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+      "date": "2026-10-09",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
       "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
@@ -34,13 +41,6 @@
       "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
       "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
       "date": "2026-10-06",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-      "date": "2026-10-05",
       "source": "The Hacker News",
       "kind": "article"
     },
