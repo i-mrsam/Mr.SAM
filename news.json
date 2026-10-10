@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-10 11:28 UTC",
+  "updated": "2026-10-10 16:28 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "date": "2026-10-10",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
       "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
@@ -34,13 +41,6 @@
       "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
       "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
       "date": "2026-10-07",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-      "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-      "date": "2026-10-06",
       "source": "The Hacker News",
       "kind": "article"
     },
