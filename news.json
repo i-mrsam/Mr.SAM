@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10 20:47 UTC",
+  "updated": "2026-10-11 02:29 UTC",
   "count": 15,
   "items": [
     {
@@ -87,23 +87,23 @@
       "kind": "cve"
     },
     {
-      "title": "CVE-2026-77956: Improper Control of Generation of Code (Code Injection) vulnerability in ash-project ash_ai a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77956",
-      "date": "2026-08-31",
+      "title": "CVE-2026-85675: OWL's DocumentProcessingToolkit contains a server-side request forgery vulnerability in the e…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85675",
+      "date": "2026-09-04",
       "source": "NVD",
       "kind": "cve"
     },
     {
-      "title": "CVE-2026-82217: In Eclipse Theia versions 1.73.0 up to but not including 1.75.0, the AI \"Agent Mode\" file-cha…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82217",
-      "date": "2026-08-31",
+      "title": "CVE-2026-85694: LaVague 0.2.35 contains a remote code execution vulnerability in PythonFromMarkdownExtractor.…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85694",
+      "date": "2026-09-04",
       "source": "NVD",
       "kind": "cve"
     },
     {
-      "title": "CVE-2026-79745: MCPHub is a unified hub for centrally managing and dynamically orchestrating multiple MCP ser…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79745",
-      "date": "2026-08-31",
+      "title": "CVE-2026-84779: Subscriber Broken Access Control in Agentimus – AI SEO, llms.txt &amp; MCP for AI Agents <= 1…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84779",
+      "date": "2026-09-03",
       "source": "NVD",
       "kind": "cve"
     }
