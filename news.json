@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-12 02:53 UTC",
+  "updated": "2026-10-12 13:41 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "date": "2026-10-12",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
       "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
@@ -34,13 +41,6 @@
       "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
       "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
       "date": "2026-10-08",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-      "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
-      "date": "2026-10-07",
       "source": "The Hacker News",
       "kind": "article"
     },
