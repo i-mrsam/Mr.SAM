@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11 21:08 UTC",
+  "updated": "2026-10-12 02:53 UTC",
   "count": 15,
   "items": [
     {
@@ -87,6 +87,13 @@
       "kind": "cve"
     },
     {
+      "title": "CVE-2026-85674: aider (aider-chat) automatically loads a .aider.conf.yml configuration file from the root of…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85674",
+      "date": "2026-09-04",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-85675: OWL's DocumentProcessingToolkit contains a server-side request forgery vulnerability in the e…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85675",
       "date": "2026-09-04",
@@ -97,13 +104,6 @@
       "title": "CVE-2026-85694: LaVague 0.2.35 contains a remote code execution vulnerability in PythonFromMarkdownExtractor.…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85694",
       "date": "2026-09-04",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-84779: Subscriber Broken Access Control in Agentimus – AI SEO, llms.txt &amp; MCP for AI Agents <= 1…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84779",
-      "date": "2026-09-03",
       "source": "NVD",
       "kind": "cve"
     }
