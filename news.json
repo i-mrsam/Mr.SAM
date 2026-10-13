@@ -1,7 +1,21 @@
 {
-  "updated": "2026-10-13 13:02 UTC",
+  "updated": "2026-10-13 22:01 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+      "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+      "date": "2026-10-13",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
+      "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+      "date": "2026-10-13",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
       "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
@@ -27,20 +41,6 @@
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
       "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
       "date": "2026-10-10",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-      "date": "2026-10-10",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-      "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-      "date": "2026-10-09",
       "source": "The Hacker News",
       "kind": "article"
     },
