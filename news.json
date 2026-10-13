@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-13 04:09 UTC",
+  "updated": "2026-10-13 13:02 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
+      "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+      "date": "2026-10-13",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
       "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
@@ -33,13 +40,6 @@
     {
       "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
       "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-      "date": "2026-10-09",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-      "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
       "date": "2026-10-09",
       "source": "The Hacker News",
       "kind": "article"
