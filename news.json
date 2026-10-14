@@ -1,7 +1,28 @@
 {
-  "updated": "2026-10-14 10:44 UTC",
+  "updated": "2026-10-14 16:03 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+      "date": "2026-10-14",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+      "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+      "date": "2026-10-14",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+      "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+      "date": "2026-10-14",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
       "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
@@ -20,27 +41,6 @@
       "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
       "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
       "date": "2026-10-13",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-      "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
-      "date": "2026-10-13",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-      "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
-      "date": "2026-10-13",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-      "date": "2026-10-12",
       "source": "The Hacker News",
       "kind": "article"
     },
