@@ -1,7 +1,21 @@
 {
-  "updated": "2026-10-14 02:22 UTC",
+  "updated": "2026-10-14 10:44 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+      "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+      "date": "2026-10-14",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+      "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+      "date": "2026-10-14",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
       "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
@@ -27,20 +41,6 @@
       "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
       "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
       "date": "2026-10-12",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-      "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-      "date": "2026-10-12",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "date": "2026-10-10",
       "source": "The Hacker News",
       "kind": "article"
     },
