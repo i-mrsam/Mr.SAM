@@ -1,7 +1,21 @@
 {
-  "updated": "2026-10-16 10:14 UTC",
+  "updated": "2026-10-16 15:40 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+      "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+      "date": "2026-10-16",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
+      "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+      "date": "2026-10-16",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
       "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
@@ -26,20 +40,6 @@
     {
       "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
       "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-      "date": "2026-10-14",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-      "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-      "date": "2026-10-14",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
-      "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
       "date": "2026-10-14",
       "source": "The Hacker News",
       "kind": "article"
