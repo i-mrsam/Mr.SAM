@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17 19:46 UTC",
+  "updated": "2026-10-18 01:46 UTC",
   "count": 15,
   "items": [
     {
@@ -45,8 +45,29 @@
       "kind": "article"
     },
     {
+      "title": "CVE-2026-97228: Rapid7 Bulk Export MCP versions 0.2.5 through 0.6.1 suffer from a GraphQL query injection iss…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97228",
+      "date": "2026-09-25",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-100368: CliInvoke is a .NET library for invoking command-line programs, and its `CliInvoke.Specializ…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100368",
+      "date": "2026-09-25",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-61742: DBHub is a database MCP server for Postgres, MySQL, SQL Server, Oracle, MariaDB, SQLite. Vers…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61742",
+      "date": "2026-09-24",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-13016: ServiceNow has remediated a SQL injection vulnerability that was identified in the ServiceNow…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13016",
       "date": "2026-09-24",
       "source": "NVD",
       "kind": "cve"
@@ -83,27 +104,6 @@
       "title": "CVE-2026-62997: Kedro-Datasets provides data connectors for Kedro. From version 5.0.0 until 9.5.0, kedro_data…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62997",
       "date": "2026-09-16",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-53957: Contentful MCP Server is a Model Context Protocol server for the Contentful Management API. P…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53957",
-      "date": "2026-09-15",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-55832: Tract is a tiny, no-nonsense, self-contained TensorFlow and ONNX inference toolkit. Prior to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55832",
-      "date": "2026-09-14",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-55093: Tract is a tiny, no-nonsense, self-contained TensorFlow and ONNX inference toolkit. Prior to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55093",
-      "date": "2026-09-14",
       "source": "NVD",
       "kind": "cve"
     }
