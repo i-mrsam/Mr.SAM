@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-19 02:03 UTC",
+  "updated": "2026-10-19 11:23 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "date": "2026-10-19",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
@@ -34,13 +41,6 @@
       "title": "Why AI Confidence Is Not Validation",
       "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
       "date": "2026-10-15",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-      "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-      "date": "2026-10-14",
       "source": "The Hacker News",
       "kind": "article"
     },
