@@ -1,7 +1,21 @@
 {
-  "updated": "2026-10-20 10:30 UTC",
+  "updated": "2026-10-20 15:55 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "date": "2026-10-20",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+      "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+      "date": "2026-10-20",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
       "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
@@ -27,20 +41,6 @@
       "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
       "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
       "date": "2026-10-19",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-      "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-      "date": "2026-10-16",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
-      "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-      "date": "2026-10-16",
       "source": "The Hacker News",
       "kind": "article"
     },
