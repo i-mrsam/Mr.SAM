@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-20 02:20 UTC",
+  "updated": "2026-10-20 10:30 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+      "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+      "date": "2026-10-20",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
       "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
@@ -33,13 +40,6 @@
     {
       "title": "AI Decision Models and Their Impact on AI SOC Platforms",
       "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-      "date": "2026-10-16",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
       "date": "2026-10-16",
       "source": "The Hacker News",
       "kind": "article"
