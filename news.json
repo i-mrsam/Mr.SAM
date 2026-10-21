@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-21 10:43 UTC",
+  "updated": "2026-10-21 16:12 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+      "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+      "date": "2026-10-21",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
       "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
@@ -33,13 +40,6 @@
     {
       "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
       "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "date": "2026-10-19",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
       "date": "2026-10-19",
       "source": "The Hacker News",
       "kind": "article"
