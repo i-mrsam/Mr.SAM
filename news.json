@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-21 16:12 UTC",
+  "updated": "2026-10-21 20:57 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "date": "2026-10-21",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
       "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
@@ -33,13 +40,6 @@
     {
       "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
       "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-      "date": "2026-10-19",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
       "date": "2026-10-19",
       "source": "The Hacker News",
       "kind": "article"
