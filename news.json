@@ -1,10 +1,17 @@
 {
-  "updated": "2026-10-22 16:10 UTC",
+  "updated": "2026-10-22 20:55 UTC",
   "count": 15,
   "items": [
     {
       "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
       "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "date": "2026-10-22",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
       "date": "2026-10-22",
       "source": "The Hacker News",
       "kind": "article"
@@ -34,13 +41,6 @@
       "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
       "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
       "date": "2026-10-21",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-      "date": "2026-10-20",
       "source": "The Hacker News",
       "kind": "article"
     },
