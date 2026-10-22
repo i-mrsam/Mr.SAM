@@ -1,7 +1,21 @@
 {
-  "updated": "2026-10-22 02:08 UTC",
+  "updated": "2026-10-22 10:45 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "date": "2026-10-22",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+      "date": "2026-10-22",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
       "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
@@ -27,20 +41,6 @@
       "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
       "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
       "date": "2026-10-20",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-      "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-      "date": "2026-10-20",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-      "date": "2026-10-19",
       "source": "The Hacker News",
       "kind": "article"
     },
