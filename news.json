@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-24 09:54 UTC",
+  "updated": "2026-10-24 14:58 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "date": "2026-10-24",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
       "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
@@ -33,13 +40,6 @@
     {
       "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
       "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-      "date": "2026-10-22",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
       "date": "2026-10-22",
       "source": "The Hacker News",
       "kind": "article"
