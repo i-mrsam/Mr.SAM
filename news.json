@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-25 15:08 UTC",
+  "updated": "2026-10-25 20:04 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "date": "2026-10-25",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
       "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
@@ -33,13 +40,6 @@
     {
       "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
       "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-      "date": "2026-10-22",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
       "date": "2026-10-22",
       "source": "The Hacker News",
       "kind": "article"
