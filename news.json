@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-27 16:56 UTC",
+  "updated": "2026-10-27 21:31 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+      "date": "2026-10-27",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
       "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
@@ -34,13 +41,6 @@
       "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
       "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
       "date": "2026-10-25",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-      "date": "2026-10-24",
       "source": "The Hacker News",
       "kind": "article"
     },
