@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-28 11:44 UTC",
+  "updated": "2026-10-28 17:30 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Wazuh and AI for Enhanced SOC Workflows",
+      "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "date": "2026-10-28",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
       "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
@@ -33,13 +40,6 @@
     {
       "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
       "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-      "date": "2026-10-26",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-      "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
       "date": "2026-10-26",
       "source": "The Hacker News",
       "kind": "article"
