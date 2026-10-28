@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-28 02:46 UTC",
+  "updated": "2026-10-28 11:44 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "date": "2026-10-28",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
       "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
@@ -34,13 +41,6 @@
       "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
       "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
       "date": "2026-10-26",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "date": "2026-10-25",
       "source": "The Hacker News",
       "kind": "article"
     },
