@@ -1,46 +1,53 @@
 {
-  "updated": "2026-10-29 11:52 UTC",
+  "updated": "2026-10-29 17:41 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "CVE-2026-119120: Crawl4AI from 0.9.0 before 0.9.5 fails to filter the CosineStrategy model_name field in untr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119120",
+      "date": "2026-10-29",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+      "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+      "date": "2026-10-29",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+      "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+      "date": "2026-10-29",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "date": "2026-10-29",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+      "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+      "date": "2026-10-29",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+      "date": "2026-10-29",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Wazuh and AI for Enhanced SOC Workflows",
       "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
       "date": "2026-10-28",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-      "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-      "date": "2026-10-28",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-      "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-      "date": "2026-10-27",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-      "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-      "date": "2026-10-27",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-      "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-      "date": "2026-10-27",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-      "date": "2026-10-26",
       "source": "The Hacker News",
       "kind": "article"
     },
@@ -97,13 +104,6 @@
       "title": "CVE-2026-102697: Ollama versions 0.14.0 before 0.31.2 contain an incorrect authorization vulnerability in the…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102697",
       "date": "2026-09-29",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-97228: Rapid7 Bulk Export MCP versions 0.2.5 through 0.6.1 suffer from a GraphQL query injection iss…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97228",
-      "date": "2026-09-25",
       "source": "NVD",
       "kind": "cve"
     }
