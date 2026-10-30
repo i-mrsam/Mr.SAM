@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-30 03:11 UTC",
+  "updated": "2026-10-30 11:45 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "date": "2026-10-30",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "CVE-2026-119120: Crawl4AI from 0.9.0 before 0.9.5 fails to filter the CosineStrategy model_name field in untr…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119120",
@@ -41,13 +48,6 @@
       "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
       "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
       "date": "2026-10-29",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Wazuh and AI for Enhanced SOC Workflows",
-      "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
-      "date": "2026-10-28",
       "source": "The Hacker News",
       "kind": "article"
     },
