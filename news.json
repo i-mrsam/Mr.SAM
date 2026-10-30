@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-30 17:19 UTC",
+  "updated": "2026-10-30 21:44 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "date": "2026-10-30",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
       "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
@@ -40,13 +47,6 @@
     {
       "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
       "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-      "date": "2026-10-29",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
       "date": "2026-10-29",
       "source": "The Hacker News",
       "kind": "article"
