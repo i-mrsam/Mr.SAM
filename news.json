@@ -1,7 +1,14 @@
 {
-  "updated": "2026-10-31 02:56 UTC",
+  "updated": "2026-10-31 11:19 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "date": "2026-10-31",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
       "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
@@ -40,13 +47,6 @@
     {
       "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
       "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-      "date": "2026-10-29",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-      "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
       "date": "2026-10-29",
       "source": "The Hacker News",
       "kind": "article"
