@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30 21:44 UTC",
+  "updated": "2026-10-31 02:56 UTC",
   "count": 15,
   "items": [
     {
@@ -52,6 +52,27 @@
       "kind": "article"
     },
     {
+      "title": "CVE-2026-108953: mac-shell-mcp before 2.0.0 contains an OS command injection vulnerability that allows MCP cl…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108953",
+      "date": "2026-10-12",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-84317: Nginx UI is a web user interface for the Nginx web server. Prior to 2.4.1, internal/config/va…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84317",
+      "date": "2026-10-12",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-108756: Abilityai Trinity through 0.9.5 contains a missing authorization vulnerability in the Telegr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108756",
+      "date": "2026-10-11",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-108583: zotero-mcp 0.10.0 through 0.14.1 contains a server-side request forgery vulnerability that a…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108583",
       "date": "2026-10-10",
@@ -83,27 +104,6 @@
       "title": "CVE-2026-96561: The AI Engine – The Chatbot, AI Framework & MCP for WordPress plugin for WordPress is vulnera…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96561",
       "date": "2026-10-01",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2025-71427: Office-PowerPoint-MCP-Server through 2.0.7 contains a path traversal vulnerability that allow…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71427",
-      "date": "2026-10-01",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-77177: Open GenAI Stack (aka ogx-ai) 2026-06-11, as used in the Meta AI backend for WhatsApp and oth…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77177",
-      "date": "2026-09-29",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-102697: Ollama versions 0.14.0 before 0.31.2 contain an incorrect authorization vulnerability in the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102697",
-      "date": "2026-09-29",
       "source": "NVD",
       "kind": "cve"
     }
