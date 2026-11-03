@@ -1,4 +1,4 @@
-const CACHE_NAME = 'llm-vul-v7';
+const CACHE_NAME = 'llm-vul-v8';
 const urlsToCache = [
   './',
   './ai.html',
@@ -7,6 +7,9 @@ const urlsToCache = [
   './data/fa.json',
   './data/en.json',
   './manifest.json',
+  './scripts/plushie.js',
+  './scripts/squeak.js',
+  './content/avatar.jpg',
   'https://cdn.jsdelivr.net/npm/marked/marked.min.js'
 ];
 
