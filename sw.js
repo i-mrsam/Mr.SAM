@@ -1,4 +1,4 @@
-const CACHE_NAME = 'llm-vul-v8';
+const CACHE_NAME = 'llm-vul-v9';
 const urlsToCache = [
   './',
   './ai.html',
