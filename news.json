@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-04 13:23 UTC",
+  "updated": "2026-11-04 22:57 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "date": "2026-11-04",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
       "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
@@ -38,25 +45,11 @@
       "kind": "article"
     },
     {
-      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-      "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-      "date": "2026-10-30",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
       "title": "CVE-2026-119120: Crawl4AI from 0.9.0 before 0.9.5 fails to filter the CosineStrategy model_name field in untr…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119120",
       "date": "2026-10-29",
       "source": "NVD",
       "kind": "cve"
-    },
-    {
-      "title": "Managing AI Token Consumption for Operational Resilience",
-      "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
-      "date": "2026-10-22",
-      "source": "CISA",
-      "kind": "advisory"
     },
     {
       "title": "CVE-2026-110202: Roo Code through 3.54.0 contains a command approval bypass vulnerability in getCommandDecisi…",
@@ -103,6 +96,13 @@
     {
       "title": "CVE-2026-108583: zotero-mcp 0.10.0 through 0.14.1 contains a server-side request forgery vulnerability that a…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108583",
+      "date": "2026-10-10",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-108592: mini-swe-agent 1.10.0 through 2.4.6 contains an information exposure vulnerability in Bubble…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108592",
       "date": "2026-10-10",
       "source": "NVD",
       "kind": "cve"
