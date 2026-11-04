@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03 22:38 UTC",
+  "updated": "2026-11-04 03:34 UTC",
   "count": 15,
   "items": [
     {
@@ -59,6 +59,27 @@
       "kind": "advisory"
     },
     {
+      "title": "CVE-2026-110202: Roo Code through 3.54.0 contains a command approval bypass vulnerability in getCommandDecisi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110202",
+      "date": "2026-10-13",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-110203: Roo Code through 3.54.0 contains a command approval bypass vulnerability that allows attacke…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110203",
+      "date": "2026-10-13",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-110204: Roo Code through 3.54.0 contains a command approval bypass vulnerability that allows attacke…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110204",
+      "date": "2026-10-13",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
       "title": "CVE-2026-108953: mac-shell-mcp before 2.0.0 contains an OS command injection vulnerability that allows MCP cl…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108953",
       "date": "2026-10-12",
@@ -82,27 +103,6 @@
     {
       "title": "CVE-2026-108583: zotero-mcp 0.10.0 through 0.14.1 contains a server-side request forgery vulnerability that a…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108583",
-      "date": "2026-10-10",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-108592: mini-swe-agent 1.10.0 through 2.4.6 contains an information exposure vulnerability in Bubble…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108592",
-      "date": "2026-10-10",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-108599: phi 0.1.1 through 0.28.4 contains an improper link resolution vulnerability that allows mali…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108599",
-      "date": "2026-10-10",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-108600: open-multi-agent (@open-multi-agent/core) 1.5.0 through 1.21.2 contains a link following vul…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108600",
       "date": "2026-10-10",
       "source": "NVD",
       "kind": "cve"
