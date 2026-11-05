@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-05 13:36 UTC",
+  "updated": "2026-11-05 22:58 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "date": "2026-11-05",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
       "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
@@ -33,13 +40,6 @@
     {
       "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
       "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-      "date": "2026-11-02",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-      "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
       "date": "2026-11-02",
       "source": "The Hacker News",
       "kind": "article"
