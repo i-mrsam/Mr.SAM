@@ -1,7 +1,21 @@
 {
-  "updated": "2026-11-05 03:55 UTC",
+  "updated": "2026-11-05 13:36 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "date": "2026-11-05",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
+    {
+      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+      "date": "2026-11-05",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
       "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
@@ -27,20 +41,6 @@
       "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
       "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
       "date": "2026-11-02",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-      "date": "2026-11-02",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-      "date": "2026-10-31",
       "source": "The Hacker News",
       "kind": "article"
     },
