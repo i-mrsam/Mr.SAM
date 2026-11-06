@@ -1612,32 +1612,25 @@ button, [onclick] {
         filteredRepos.sort((a, b) => a.name.localeCompare(b.name));
         filteredRepos.forEach(repo => { otherRepoListHtml += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`; });
         otherRepoListHtml += '</ul></div>';
-        return `<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=F7931A&height=80&section=header"/>
+        return `<div dir="ltr" style="width: 100%; max-width: 100%; overflow: hidden; display: flex; flex-direction: column; align-items: center; gap: 0.75rem; box-sizing: border-box; padding: 0 0.5rem;">
+  <img style="width: 100%; max-width: 100%; height: auto; display: block;" src="https://capsule-render.vercel.app/api?type=slice&color=F7931A&height=80&section=header"/>
+
+  <img style="width: 600px; max-width: 100%; height: auto; display: block;" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=F7931A&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hi+%2C++I'm+(+Esmaeil+Asadi+%3C%3D%3E+%D8%A7%D8%B3%D9%80%D9%85%D9%80%D8%A7%D8%B9%D9%80%DB%8C%D9%80%D9%84+%D8%A7%D8%B3%D9%80%D8%AF%DB%8C+);%F0%9F%9B%A1%EF%B8%8F+AI+Systems+Security+%26+QA+Architect;%E2%9A%99%EF%B8%8F+Low-Level+%7C+Rust+%7C+Linux+%7C+Reverse+Engineering"/>
+
+  <img style="width: 100%; max-width: 100%; height: auto; display: block;" src="https://raw.githubusercontent.com/i-mrsam/i-MrSAM/main/assets/terminal.svg" alt="Hacker Terminal">
+
+  <!-- Tech Stack -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.5rem; width: 100%; margin: 0.25rem 0;">
+    <img style="height: 26px; width: auto; max-width: 100%; display: block;" src="https://img.shields.io/badge/Linux-d65d0e?style=for-the-badge&logo=linux&logoColor=282828"/>
+    <img style="height: 26px; width: auto; max-width: 100%; display: block;" src="https://img.shields.io/badge/Rust-d65d0e?style=for-the-badge&logo=rust&logoColor=282828"/>
+    <img style="height: 26px; width: auto; max-width: 100%; display: block;" src="https://img.shields.io/badge/Python-d65d0e?style=for-the-badge&logo=python&logoColor=282828"/>
+    <img style="height: 26px; width: auto; max-width: 100%; display: block;" src="https://img.shields.io/badge/Android-d65d0e?style=for-the-badge&logo=android&logoColor=282828"/>
+    <img style="height: 26px; width: auto; max-width: 100%; display: block;" src="https://img.shields.io/badge/JavaScript-d65d0e?style=for-the-badge&logo=javascript&logoColor=282828"/>
+  </div>
+
+  <!-- Footer -->
+  <img style="width: 100%; max-width: 100%; height: auto; display: block;" src="https://capsule-render.vercel.app/api?type=waving&color=ff5500&height=210&section=header&text=In%20code%20we%20trust,%20in%20security%20we%20audit.&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Mr.%20SAM&descAlignY=58&descSize=17"/>
 </div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=F7931A&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hi+%2C++I'm+(+Esmaeil+Asadi+%3C%3D%3E+%D8%A7%D8%B3%D9%80%D9%85%D9%80%D8%A7%D8%B9%D9%80%DB%8C%D9%80%D9%84+%D8%A7%D8%B3%D9%80%D8%AF%DB%8C+);%F0%9F%9B%A1%EF%B8%8F+AI+Systems+Security+%26+QA+Architect;%E2%9A%99%EF%B8%8F+Low-Level+%7C+Rust+%7C+Linux+%7C+Reverse+Engineering"/>
-</div>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/i-mrsam/i-MrSAM/main/assets/terminal.svg" alt="Hacker Terminal" width="100%">
-</p>
-
-<!-- Tech Stack -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-d65d0e?style=for-the-badge&logo=linux&logoColor=282828" width="105"/>
-  <img src="https://img.shields.io/badge/Rust-d65d0e?style=for-the-badge&logo=rust&logoColor=282828" width="95"/>
-  <img src="https://img.shields.io/badge/Python-d65d0e?style=for-the-badge&logo=python&logoColor=282828" width="105"/>
-  <img src="https://img.shields.io/badge/Android-d65d0e?style=for-the-badge&logo=android&logoColor=282828" width="115"/>
-  <img src="https://img.shields.io/badge/JavaScript-d65d0e?style=for-the-badge&logo=javascript&logoColor=282828" width="125"/>
-</p>
-
-<!-- Footer -->
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff5500&height=210&section=header&text=In%20code%20we%20trust,%20in%20security%20we%20audit.&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Mr.%20SAM&descAlignY=58&descSize=17"/>
-</div>
-
 
           <div class="projects"><h2 class="center">📂</h2><div class="project-list-container">
             <div><a href="https://github.com/i-mrsam/Advanced-Mic-Camera-Monitor" target="_blank">Advanced Mic Camera Monitor</a><p>🛡️ مانیتورینگ میکروفن و دوربین برای شناسایی فعالیت‌های مشکوک و جاسوسی</p></div>
