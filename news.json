@@ -1,7 +1,21 @@
 {
-  "updated": "2026-11-06 03:53 UTC",
+  "updated": "2026-11-06 13:20 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "CVE-2026-83494: A flaw was found in the training-operator. An incorrect object casting in the PyTorchJob Vali…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83494",
+      "date": "2026-11-06",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "date": "2026-11-06",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
       "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
@@ -34,13 +48,6 @@
       "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
       "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
       "date": "2026-11-03",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-      "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-      "date": "2026-11-02",
       "source": "The Hacker News",
       "kind": "article"
     },
@@ -96,13 +103,6 @@
     {
       "title": "CVE-2026-108583: zotero-mcp 0.10.0 through 0.14.1 contains a server-side request forgery vulnerability that a…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108583",
-      "date": "2026-10-10",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-108592: mini-swe-agent 1.10.0 through 2.4.6 contains an information exposure vulnerability in Bubble…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108592",
       "date": "2026-10-10",
       "source": "NVD",
       "kind": "cve"
