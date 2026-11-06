@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06 13:20 UTC",
+  "updated": "2026-11-06 22:28 UTC",
   "count": 15,
   "items": [
     {
@@ -8,6 +8,20 @@
       "date": "2026-11-06",
       "source": "NVD",
       "kind": "cve"
+    },
+    {
+      "title": "CVE-2026-123974: In all versions of PyTorch's TorchServe, a predictable extraction directory in /tmp lets a l…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123974",
+      "date": "2026-11-06",
+      "source": "NVD",
+      "kind": "cve"
+    },
+    {
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "date": "2026-11-06",
+      "source": "The Hacker News",
+      "kind": "article"
     },
     {
       "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
@@ -41,13 +55,6 @@
       "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
       "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
       "date": "2026-11-04",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-      "date": "2026-11-03",
       "source": "The Hacker News",
       "kind": "article"
     },
@@ -97,13 +104,6 @@
       "title": "CVE-2026-108756: Abilityai Trinity through 0.9.5 contains a missing authorization vulnerability in the Telegr…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108756",
       "date": "2026-10-11",
-      "source": "NVD",
-      "kind": "cve"
-    },
-    {
-      "title": "CVE-2026-108583: zotero-mcp 0.10.0 through 0.14.1 contains a server-side request forgery vulnerability that a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108583",
-      "date": "2026-10-10",
       "source": "NVD",
       "kind": "cve"
     }
