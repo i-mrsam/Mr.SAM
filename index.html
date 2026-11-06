@@ -1654,7 +1654,7 @@ button, [onclick] {
     }
 
     const getAboutContent = (currentLang) => {
-        const hintText = currentLang === 'fa' ? 'صورتم رو بکش!' : 'Drag my face!';
+        const hintText = currentLang === 'fa' ? 'تصویر را لمس کنید!' : 'Drag my face!';
         const avatarImg = (typeof window !== 'undefined' && window.AVATAR_DATA_URI && location.protocol === 'file:') ? window.AVATAR_DATA_URI : 'content/avatar.jpg';
         const commonHtmlStart = `<div class="bio-container">
             <div class="avatar-wrapper">
@@ -1676,7 +1676,7 @@ button, [onclick] {
             <a class="link-button" href="https://x.com/0x0Err0r" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter" style="font-size:1.2em; vertical-align:middle;"></i> X </a>
             <a class="link-button" href="mailto:mrsam1@duck.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope" style="font-size:1.2em; vertical-align:middle;"></i>Email</a>
             <a class="link-button" href="#" onclick="openPanel('<iframe src=\\'content/donate.html\\'></iframe>', 'donate'); return false;"><i style="font-size:1.2em; vertical-align:middle; color: #ff5555;"></i>حمایت ❤️ Donate</a>
-            <a class="link-button" href="#" onclick="openPanel('<iframe src=\\'content/privacy.html\\'></iframe>', 'privacy'); return false;"><i class="fa-solid fa-user-secret" style="font-size:1.2em; vertical-align:middle;"></i>سیاست حفظ حریم خصوصی ربات</a>
+            <a class="link-button" href="#" onclick="openPanel('<iframe src=\\'content/privacy.html\\'></iframe>', 'privacy'); return false;"><i class="fa-solid fa-user-secret" style="font-size:1.2em; vertical-align:middle;"></i>سیاست حفظ حریم خصوصی </a>
         </div>`;
         return currentLang === 'fa'
             ? `${commonHtmlStart}<h1>اسماعیل اسدی</h1><p class="bio">توسعه‌دهنده، پژوهشگر و علاقه‌مند به تکنولوژی</p>${commonHtmlEnd}`
