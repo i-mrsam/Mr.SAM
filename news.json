@@ -1,7 +1,14 @@
 {
-  "updated": "2026-11-07 03:27 UTC",
+  "updated": "2026-11-07 11:59 UTC",
   "count": 15,
   "items": [
+    {
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "date": "2026-11-07",
+      "source": "The Hacker News",
+      "kind": "article"
+    },
     {
       "title": "CVE-2026-83494: A flaw was found in the training-operator. An incorrect object casting in the PyTorchJob Vali…",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83494",
@@ -48,13 +55,6 @@
       "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
       "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
       "date": "2026-11-05",
-      "source": "The Hacker News",
-      "kind": "article"
-    },
-    {
-      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-      "date": "2026-11-04",
       "source": "The Hacker News",
       "kind": "article"
     },
